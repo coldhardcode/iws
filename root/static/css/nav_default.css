@@ -1,0 +1,27 @@
+/* Define the style for the default site navigation here */
+#nav {
+    border:     1px dashed #b3a857;
+    width:      15%;
+    min-width:  150px;
+    margin:     2px;
+    float:      left;
+    overflow:   hidden;
+    text-align: center;
+}
+
+#nav ul {
+    border-top: 1px dashed #b3a857;
+    border-bottom: 1px dashed #b3a857;
+    margin:     4px;
+    padding:    4px;
+}
+
+#nav li {
+    padding: 1ex 0;
+    text-align: center;
+}
+#nav li a {
+    display: block;
+    color: #4f6c8a;
+    font: bold small-caps 120% Trebuchet MS, Arial Black, Arial, sans-serif;
+}

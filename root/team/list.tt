@@ -1,0 +1,14 @@
+[%~
+DEFAULT list = rest.teams;
+
+~%]
+[% IF list.size == 0 %]
+<h3>[% loc('Sorry') %]</h3>
+[% loc('There are no teams to display, please check back later.') %]
+[% ELSE %]
+<ul>
+[% FOREACH team IN list %]
+    <li><a href="[% c.uri_for( c.controller( 'Team' ).action_for('team'), [ '-', team.token_name ] ) %]">[% team.display_name %]</a></li>
+[% END %]
+</ul> 
+[% END %]

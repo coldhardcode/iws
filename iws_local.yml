@@ -1,0 +1,4 @@
+---
+#Model::Schema:
+#    connect_info:
+#        - dbi:SQLite:__HOME__/database/local.db

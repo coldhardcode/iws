@@ -1,0 +1,2 @@
+[% IF !game; PROCESS "game/not_found.tt"; BREAK; END; %]
+[% game.home.display_name %] vs. [% game.visitor.display_name %]

@@ -1,0 +1,5 @@
+<div class="footer">
+ <p>[% loc('Welcome to [_1], your source for soccer information.', c.config.name) %]</p>
+ <p>Logos and names copyrighted and/or trademarked by their respective owners.  Usage is intended for nominative purposes only.</p>
+ <p>Stock Images from <a href="http://www.sxc.hu/">stock.xchng</a></p>
+</div>

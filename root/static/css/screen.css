@@ -1,0 +1,96 @@
+a, a:link { color: #4f6c8a; }
+a:visited { color: #7890a8; }
+
+h1 {
+    font-weight: bold;
+    font-size: 140%;
+    padding: 0.5ex 0;
+}
+h2 {
+    font-weight: bold;
+    font-size: 120%;
+    padding: 0.25ex 0;
+}
+h3 {
+    font-weight: bold;
+    font-size: 105%;
+}
+h4 {
+    font-weight: bold;
+}
+
+/* Layout style */
+.content {
+    overflow: hidden;
+    margin: 1em;
+}
+.float_container {
+    overflow: hidden;
+}
+.main_column {
+}
+.support_column {
+    width: 300px;
+}
+.column {
+    width: 365px;
+}
+
+#masthead {
+    padding: 0 1em;
+}
+
+h1#title {
+    text-align: center;
+}
+h1#title span { color: #369; font-weight: normal; }
+
+.network {
+    margin-bottom: 2em;
+}
+
+.network ul li { margin: 0 1em; }
+.desc {
+    margin: 1em;
+}
+.desc img { padding: 5px; }
+
+/* Miscellaneous useful styles */
+.hide  { display: none !important }
+.left  { display: inline; float: left }
+.right { display: inline; float: right }
+.clear { clear: both }
+
+/* cursor styles */
+.clickable   { cursor: pointer; cursor: hand; }
+.unclickable { cursor: default !important; }
+.movable     { cursor: move; }
+.footer {
+    clear: both;
+    text-align: center; 
+    font-size: 80%;
+}
+
+/* List styles */
+dt {
+    border-bottom: 1px solid #000;
+    font-weight: normal;
+    font-size: 110%;
+}
+dt a {
+    text-decoration: none;
+    font-weight: bold;
+}
+dt span {
+    float: right; 
+    font-size: 80%;
+}
+dd {
+    margin: 0 1em 1ex;
+    line-height: 140%;
+}
+
+/* General Styles */
+.time {
+    color: #500;
+}

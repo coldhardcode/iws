@@ -1,0 +1,18 @@
+<div class="network">
+<h1><a href="[% c.uri_for( c.controller('League').action_for('list') ) %]">Leagues</a> &raquo; Major Indoor Soccer League</h1>
+<p class="desc">
+ <a href="http://www.misl.net"><img src="[% static('images/leagues/misl_thumb.jpg') %]" align="left"/></a>
+ Indoor Soccer is a fast growing modification of traditional soccer, played
+ on a smaller field with fewer players.  Exciting and fast paced, the scores
+ are higher and the climate is nicer!  Indoor Soccer is a very fast growing
+ sport in the US, and MISL is the league to watch.
+</p>
+
+<h4>Useful Links</h4>
+<p>
+ <ul>
+  <li><a href="http://www.misl.net">Official MISL Website</a></li>
+ </ul>
+</p>
+
+</div>

@@ -1,0 +1,18 @@
+<div class="network">
+<h1><a href="[% c.uri_for( c.controller('League').action_for('list') ) %]">Leagues</a> &raquo; English Premier League</h1>
+<p class="desc">
+ <a href="http://www.premierleague.com"><img src="[% static('images/leagues/premierleague_thumb.jpg') %]" align="left"/></a>
+  The aptly named Premier League (or Premiership) is not only the most watched
+  soccer league on the planet, but it is the most watched sporting league.
+  Totalling 20 clubs throughout England, watching a Premier League game will
+  never disappoint.
+ </p>
+
+<h4>Useful Links</h4>
+<p>
+ <ul>
+  <li><a href="http://www.premierleague.com">Official Premier League Website</a></li>
+ </ul>
+</p>
+<br/><br/>
+</div>

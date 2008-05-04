@@ -1,0 +1,9 @@
+---
+name: I Watch Soccer
+Model::Schema:
+    connect_info:
+        - ""
+        - ""
+        - ""
+defaults:
+    timezone: America/New_York

@@ -1,0 +1,1 @@
+<a href="[% c.uri_for( c.controller('Game').action_for('list') ) %]">Soccer Listings</a>

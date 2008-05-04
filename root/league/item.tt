@@ -1,0 +1,16 @@
+[%
+
+DEFAULT league = rest.league;
+
+TRY;
+    PROCESS "league/static/${league.token_name}.tt";
+CATCH;
+    %]<h1><a href="[% c.uri_for( c.controller('League').action_for('list') ) %]">Leagues</a> &raquo; [% league.display_name %]</h1>[%
+END;
+%]<h2>[% loc('Upcoming [_1] Games', league.display_name) %]</h2>[%
+PROCESS "game/list.tt",
+    list = league.games,
+    hide_league = 1;
+
+%]
+

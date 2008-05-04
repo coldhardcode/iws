@@ -1,0 +1,86 @@
+[%~
+SET ads_shown = 0;
+DEFAULT list = rest.games;
+DEFAULT tz   = c.req.params.tz || default_tz;
+USE Dumper; 
+
+SET game_count = list.size;
+
+~%]
+[% IF game_count == 0 || !list.0 %]
+<h3>[% loc('Sorry') %]</h3>
+[% loc('There are no games to display, please check back later.') %]
+[% ELSE %]
+<div class="right">
+ <form method="get" action="[% c.req.uri %]">
+  <label for="tz">Timezone: </label>
+  <select name="tz" id="tz">
+    <option value="America/Moncton"[% IF tz == "America/Moncton" %] selected="selected"[% END %]>Atlantic</option>
+    <option value="America/New_York"[% IF tz == "America/New_York" %] selected="selected"[% END %]>Eastern</option>
+    <option value="America/Chicago"[% IF tz == "America/Chicago" %] selected="selected"[% END %]>Central</option>
+    <option value="America/Denver"[% IF tz == "America/Denver" %] selected="selected"[% END %]>Mountain</option>
+    <option value="America/Los_Angeles"[% IF tz == "America/Los_Angeles" %] selected="selected"[% END %]>Pacific</option>
+  </select>
+  <input type="submit" value="Go"/>
+ </form>
+</div>
+<dl class="clear">
+[% FOREACH game IN list;
+    home    = game.home;
+    visitor = game.visitor;
+    IF game.start_time.time_zone_short_name == "floating";
+        tz_out  = game.start_time.set_time_zone( 'America/New_York');
+    END;
+    tz_out  = game.start_time.set_time_zone( tz );
+%]
+    <dt>
+        <a href="[% c.uri_for( c.controller('Team').action_for('team'), [ '-', home.token_name ] ) %]">[% home.display_name %]</a> vs. <a href="[% c.uri_for( c.controller('Team').action_for('team'), [ '-', visitor.token_name ] ) %]">[% visitor.display_name %]</a>
+        [%~ IF !hide_league && game.league %]
+         <span class="league"><a href="[% c.uri_for( c.controller('League').action_for('item'), [ '-', game.league.token_name ] ) %]">[% game.league.display_name %]</a></span>
+        [%~ END ~%]
+    </dt>
+    <dd>
+        <p>[% loc('Kickoff at') %] <span class="time">[% game.start_time.strftime("%c") %] ([% game.start_time.time_zone_short_name %])</span></p>
+        [%
+            broadcasts = game.broadcasts;
+            IF game.broadcasts.size == 0 ~%]
+        <p>[% loc('Sorry, we do not have any broadcast information for this game.') %]</p>
+        [%~ ELSE ~%]
+        <ul>
+            [% FOREACH broadcast IN broadcasts %]
+            <li>[% loc('Broadcasted on') %] <a href="[% c.uri_for( c.controller('Network').action_for('item'), [ '-', broadcast.network.token_name ] ) %]">[% broadcast.network.display_name %]</a>: [% broadcast.start_time.strftime('%c') %] - [% broadcast.end_time.strftime('%H:%M %p') %]</li>
+            [%~ END ~%]
+        </ul>
+        [%~ END ~%]
+    </dd>
+    [%
+        IF ( ( ( loop.index + 1 ) mod ( game_count / 2 ) ) == 0 && game_count > 9 );
+            ads_shown = ads_shown + 1;
+    %]
+    <dd style="text-align: center;"><script type="text/javascript"><!--
+google_ad_client = "pub-0455395387077612";
+//Game List Ad
+google_ad_slot = "3113801759";
+google_ad_width = 728;
+google_ad_height = 90;
+//--></script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></dd>
+    [%
+        END; # Show ads every 5 games
+    END; # End of game list
+    IF ads_shown == 0 %]
+    <dd><script type="text/javascript"><!--
+google_ad_client = "pub-0455395387077612";
+//Game List Ad
+google_ad_slot = "3113801759";
+google_ad_width = 728;
+google_ad_height = 90;
+//--></script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></dd>
+[% END %]
+</dl> 
+[% END %]

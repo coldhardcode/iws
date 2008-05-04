@@ -1,0 +1,19 @@
+<div class="network">
+<h1><a href="[% c.uri_for( c.controller('Network').action_for('list') ) %]">Networks</a> &raquo; Fox Soccer Channel</h1>
+<p class="desc">
+ <a href="http://msn.foxsports.com/foxsoccer"><img src="[% static('images/networks/fsc_thumb.jpg') %]" align="left"/></a>
+ Fox Soccer is an excellent choice for viewing soccer in the US.  In addition
+ to being widely available on cable and satellite, there is event a pay per view
+ <a href="http://www.foxsoccer.tv">IPTV on-demand soccer station</a> in case
+ you miss the games.
+</p>
+
+<h4>Useful Links</h4>
+<p>
+ <ul>
+  <li><a href="http://msn.foxsports.com/foxsoccer">FSC Official Website</a></li>
+  <li><a href="http://www.foxsoccer.tv/">FSC Broadband </a> (Pay-per-view Online Matches)</li>
+ </ul>
+</p>
+
+</div>

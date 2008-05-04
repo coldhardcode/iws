@@ -1,0 +1,15 @@
+[%
+
+DEFAULT team = rest.team;
+
+TRY;
+    PROCESS "team/static/${team.token_name}.tt";
+CATCH;
+    %]<h1>[% team.display_name %]</h1>[%
+END;
+%]<h2>[% loc('Upcoming Games') %]</h2>[%
+PROCESS "game/list.tt",
+     list = team.games( {}, { prefetch => [ 'home', 'visitor', { 'broadcasts' => 'network' } ] } );
+
+%]
+

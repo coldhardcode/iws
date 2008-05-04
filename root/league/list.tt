@@ -1,0 +1,14 @@
+[%~
+DEFAULT list = rest.leagues;
+~%]
+[% IF list.size == 0 %]
+<h3>[% loc('Sorry') %]</h3>
+[% loc('There are no leagues to display, please check back later.') %]
+[% ELSE %]
+<h2>[% loc('Leagues on') %] [% c.config.name %]</h2>
+<ul>
+[% FOREACH item IN list %]
+    <li><a href="[% c.uri_for( c.controller('League').action_for('item'), [ '-', item.token_name ] ) %]">[% item.display_name %]</a></li>
+[% END %]
+</ul> 
+[% END %]

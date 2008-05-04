@@ -1,0 +1,6293 @@
+--- 
+ad: 
+  Europe/Andorra: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: AD
+        Locality: 
+          LocalityName: Andorra la Vella
+    Point: 
+      coordinates: 
+        - 1.521803
+        - 42.507502
+        - 0
+    address: Andorra la Vella, Andorra
+    id: p1
+ae: 
+  Asia/Dubai: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: AE
+        Locality: 
+          LocalityName: Dubai
+    Point: 
+      coordinates: 
+        - 55.307485
+        - 25.271139
+        - 0
+    address: Dubai, United Arab Emirates
+    id: p1
+af: 
+  Asia/Kabul: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: AF
+        Locality: 
+          LocalityName: Kabul
+    Point: 
+      coordinates: 
+        - 69.1952
+        - 34.5155
+        - 0
+    address: Kabul, Afghanistan
+    id: p1
+ag: 
+  America/Antigua: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: AG
+    Point: 
+      coordinates: 
+        - -61.789423
+        - 17.08602
+        - 0
+    address: Antigua, Antigua and Barbuda
+    id: p1
+ai: 
+  America/Anguilla: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: AI
+    Point: 
+      coordinates: 
+        - -63.068615
+        - 18.220554
+        - 0
+    address: Anguilla
+    id: p1
+al: 
+  Europe/Tirane: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Tiranë
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Tiranë
+            SubAdministrativeAreaName: Tiranë
+        CountryNameCode: AL
+    Point: 
+      coordinates: 
+        - 19.817223
+        - 41.331656
+        - 0
+    address: Tiranë, Tiranë, Albania
+    id: p1
+am: 
+  Asia/Yerevan: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: AM
+        Locality: 
+          LocalityName: Yerevan
+    Point: 
+      coordinates: 
+        - 44.508999
+        - 40.15959
+        - 0
+    address: Yerevan, Armenia
+    id: p1
+an: 
+  America/Curacao: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: AN
+    Point: 
+      coordinates: 
+        - -68.945576
+        - 12.209208
+        - 0
+    address: Curacao, Antilles
+    id: p1
+ao: 
+  Africa/Luanda: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: AO
+        Locality: 
+          LocalityName: Luanda
+    Point: 
+      coordinates: 
+        - 13.23056
+        - -8.81593
+        - 0
+    address: Luanda, Angola
+    id: p1
+aq: 
+  Antarctica/Casey: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: IL
+          Locality: 
+            LocalityName: Casey
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -87.992555
+        - 39.304475
+        - 0
+    address: Casey, IL, USA
+    id: p1
+  Antarctica/Davis: 
+    AddressDetails: 
+      Accuracy: 6
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: IL
+          SubAdministrativeArea: 
+            SubAdministrativeAreaName: Cook
+            Thoroughfare: 
+              ThoroughfareName: Davis St
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -87.761566
+        - 42.046306
+        - 0
+    address: Davis St, IL, USA
+    id: p1
+  Antarctica/Mawson: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: ACT
+          Locality: 
+            LocalityName: Mawson
+        CountryNameCode: AU
+    Point: 
+      coordinates: 
+        - 149.094507
+        - -35.36417
+        - 0
+    address: Mawson, ACT, Australia
+    id: p1
+  Antarctica/McMurdo: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: BC
+          SubAdministrativeArea: 
+            Locality: 
+              DependentLocality: 
+                DependentLocalityName: McMurdo
+              LocalityName: Columbia-Shuswap A
+            SubAdministrativeAreaName: Columbia-Shuswap Regional District
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -116.77688
+        - 51.128145
+        - 0
+    address: McMurdo, Columbia-Shuswap A, BC, Canada
+    id: p1
+  Antarctica/Palmer: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: AK
+          Locality: 
+            LocalityName: Palmer
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -149.122472
+        - 61.598487
+        - 0
+    address: Palmer, AK, USA
+    id: p1
+  Antarctica/South_Pole: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: AQ
+    Point: 
+      coordinates: 
+        - 137.86
+        - -64.53
+        - 0
+    address: South Magnetic Pole, Antarctica
+    id: p1
+  Antarctica/Vostok: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Qostanay
+          Locality: 
+            LocalityName: Vostok
+        CountryNameCode: KZ
+    Point: 
+      coordinates: 
+        - 65.521568
+        - 52.662453
+        - 0
+    address: Vostok, Qostanay, Kazakhstan
+    id: p1
+ar: 
+  America/Argentina/Buenos_Aires: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Entre Ríos
+          Locality: 
+            LocalityName: La Argentina
+        CountryNameCode: AR
+    Point: 
+      coordinates: 
+        - -59.345421
+        - -33.582951
+        - 0
+    address: La Argentina, Entre Ríos, Argentina
+    id: p1
+  America/Argentina/Catamarca: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Catamarca
+          Locality: 
+            LocalityName: Catamarca
+        CountryNameCode: AR
+    Point: 
+      coordinates: 
+        - -65.780861
+        - -28.466129
+        - 0
+    address: Catamarca, Catamarca, Argentina
+    id: p1
+  America/Argentina/Cordoba: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: AR
+        Locality: 
+          LocalityName: Córdoba
+    Point: 
+      coordinates: 
+        - -64.180389
+        - -31.405254
+        - 0
+    address: Córdoba, Argentina
+    id: p1
+  America/Argentina/Jujuy: 
+    AddressDetails: 
+      Accuracy: 2
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Jujuy
+        CountryNameCode: AR
+    Point: 
+      coordinates: 
+        - -65.685554
+        - -23.196984
+        - 0
+    address: Jujuy, Argentina
+    id: p1
+  America/Argentina/La_Rioja: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: AR
+        Locality: 
+          LocalityName: La Rioja
+    Point: 
+      coordinates: 
+        - -66.857574
+        - -29.41334
+        - 0
+    address: La Rioja, Argentina
+    id: p1
+  America/Argentina/Mendoza: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: AR
+        Locality: 
+          LocalityName: Mendoza
+    Point: 
+      coordinates: 
+        - -68.833101
+        - -32.892721
+        - 0
+    address: Mendoza, Argentina
+    id: p1
+  America/Argentina/Rio_Gallegos: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: AR
+        Locality: 
+          LocalityName: Río Gallegos
+    Point: 
+      coordinates: 
+        - -69.216667
+        - -51.616667
+        - 0
+    address: Río Gallegos, Argentina
+    id: p1
+  America/Argentina/San_Juan: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: AR
+        Locality: 
+          LocalityName: San Juan
+    Point: 
+      coordinates: 
+        - -68.533333
+        - -31.533333
+        - 0
+    address: San Juan, Argentina
+    id: p1
+  America/Argentina/Tucuman: 
+    AddressDetails: 
+      Accuracy: 2
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Tucumán
+        CountryNameCode: AR
+    Point: 
+      coordinates: 
+        - -65.320301
+        - -27.038434
+        - 0
+    address: Tucumán, Argentina
+    id: p1
+  America/Argentina/Ushuaia: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: AR
+        Locality: 
+          LocalityName: Ushuaia
+    Point: 
+      coordinates: 
+        - -68.283333
+        - -54.783333
+        - 0
+    address: Ushuaia, Argentina
+    id: p1
+as: 
+  Pacific/Pago_Pago: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: AS
+        Locality: 
+          LocalityName: Pago Pago
+    Point: 
+      coordinates: 
+        - -170.700897
+        - -14.27933
+        - 0
+    address: Pago Pago, American Samoa
+    id: p1
+at: 
+  Europe/Vienna: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Wien
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Wien
+            SubAdministrativeAreaName: Wien
+        CountryNameCode: AT
+    Point: 
+      coordinates: 
+        - 16.372778
+        - 48.209206
+        - 0
+    address: Wien, Austria
+    id: p1
+au: 
+  Australia/Adelaide: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: SA
+          Locality: 
+            LocalityName: Adelaide
+        CountryNameCode: AU
+    Point: 
+      coordinates: 
+        - 138.599732
+        - -34.92577
+        - 0
+    address: Adelaide, SA, Australia
+    id: p1
+  Australia/Brisbane: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: QLD
+          Locality: 
+            LocalityName: Brisbane
+        CountryNameCode: AU
+    Point: 
+      coordinates: 
+        - 153.027892
+        - -27.46758
+        - 0
+    address: Brisbane, QLD, Australia
+    id: p1
+  Australia/Broken_Hill: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: NSW
+          Locality: 
+            LocalityName: Broken Hill
+        CountryNameCode: AU
+    Point: 
+      coordinates: 
+        - 141.466614
+        - -31.959193
+        - 0
+    address: Broken Hill, NSW, Australia
+    id: p1
+  Australia/Currie: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: TAS
+          Locality: 
+            LocalityName: Currie
+        CountryNameCode: AU
+    Point: 
+      coordinates: 
+        - 143.850667
+        - -39.931075
+        - 0
+    address: Currie, TAS, Australia
+    id: p1
+  Australia/Darwin: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: NT
+          Locality: 
+            LocalityName: Darwin
+        CountryNameCode: AU
+    Point: 
+      coordinates: 
+        - 130.841904
+        - -12.461334
+        - 0
+    address: Darwin, NT, Australia
+    id: p1
+  Australia/Eucla: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: WA
+          Locality: 
+            LocalityName: Eucla
+        CountryNameCode: AU
+    Point: 
+      coordinates: 
+        - 128.835041
+        - -31.702722
+        - 0
+    address: Eucla, WA, Australia
+    id: p1
+  Australia/Hobart: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: TAS
+          Locality: 
+            LocalityName: Hobart
+        CountryNameCode: AU
+    Point: 
+      coordinates: 
+        - 147.330234
+        - -42.882743
+        - 0
+    address: Hobart, TAS, Australia
+    id: p1
+  Australia/Lindeman: 
+    AddressDetails: 
+      Accuracy: 6
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: NSW
+          Locality: 
+            LocalityName: Green Valley
+            PostalCode: 
+              PostalCodeNumber: 2168
+            Thoroughfare: 
+              ThoroughfareName: Lindeman Crescent
+        CountryNameCode: AU
+    Point: 
+      coordinates: 
+        - 150.861068
+        - -33.905195
+        - 0
+    address: Lindeman Crescent, Green Valley, NSW 2168, Australia
+    id: p1
+  Australia/Lord_Howe: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: NSW
+          Locality: 
+            LocalityName: Lord Howe Island
+        CountryNameCode: AU
+    Point: 
+      coordinates: 
+        - 159.081217
+        - -31.55247
+        - 0
+    address: Lord Howe Island, NSW, Australia
+    id: p1
+  Australia/Melbourne: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: VIC
+          Locality: 
+            LocalityName: Melbourne
+        CountryNameCode: AU
+    Point: 
+      coordinates: 
+        - 144.963169
+        - -37.814251
+        - 0
+    address: Melbourne, VIC, Australia
+    id: p1
+  Australia/Perth: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: WA
+          Locality: 
+            LocalityName: Perth
+        CountryNameCode: AU
+    Point: 
+      coordinates: 
+        - 115.85859
+        - -31.9554
+        - 0
+    address: Perth, WA, Australia
+    id: p1
+  Australia/Sydney: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: NSW
+          Locality: 
+            LocalityName: Sydney
+        CountryNameCode: AU
+    Point: 
+      coordinates: 
+        - 151.207114
+        - -33.867139
+        - 0
+    address: Sydney, NSW, Australia
+    id: p1
+aw: 
+  America/Aruba: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: AW
+    Point: 
+      coordinates: 
+        - -69.968338
+        - 12.52111
+        - 0
+    address: Aruba
+    id: p1
+ax: 
+  Europe/Mariehamn: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Åland
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Mariehamn
+            SubAdministrativeAreaName: Åland
+        CountryNameCode: FI
+    Point: 
+      coordinates: 
+        - 19.922386
+        - 60.099261
+        - 0
+    address: Mariehamn, Finland
+    id: p1
+az: 
+  Asia/Baku: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: AZ
+        Locality: 
+          LocalityName: Baky
+    Point: 
+      coordinates: 
+        - 49.893226
+        - 40.38344
+        - 0
+    address: Baky, Azerbaijan
+    id: p1
+ba: 
+  Europe/Sarajevo: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Federacija Bosna i Hercegovina
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Sarajevo
+            SubAdministrativeAreaName: Sarajevo
+        CountryNameCode: BA
+    Point: 
+      coordinates: 
+        - 18.42136
+        - 43.860751
+        - 0
+    address: Sarajevo, Federacija Bosna i Hercegovina, Bosnia and Herzegovina
+    id: p1
+bb: 
+  America/Barbados: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: BB
+    Point: 
+      coordinates: 
+        - -59.543198
+        - 13.193887
+        - 0
+    address: Barbados
+    id: p1
+bd: 
+  Asia/Dhaka: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Dhaka
+          Locality: 
+            LocalityName: Dhaka
+        CountryNameCode: BD
+    Point: 
+      coordinates: 
+        - 90.3978
+        - 23.7106
+        - 0
+    address: Dhaka, Dhaka, Bangladesh
+    id: p1
+be: 
+  Europe/Brussels: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Brussel Hoofdstedelijk Gewest
+          Locality: 
+            LocalityName: Brussel
+        CountryNameCode: BE
+    Point: 
+      coordinates: 
+        - 4.367612
+        - 50.837051
+        - 0
+    address: Brussel, Belgium
+    id: p1
+bf: 
+  Africa/Ouagadougou: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Ouagadougou
+            SubAdministrativeAreaName: Kadiogo
+        CountryNameCode: BF
+    Point: 
+      coordinates: 
+        - -1.5352
+        - 12.3569
+        - 0
+    address: Ouagadougou, Burkina Faso
+    id: p1
+bg: 
+  Europe/Sofia: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Sofija-grad
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Sofija
+            SubAdministrativeAreaName: Stolichna
+        CountryNameCode: BG
+    Point: 
+      coordinates: 
+        - 23.323827
+        - 42.710543
+        - 0
+    address: Sofija, Sofija-grad, Bulgaria
+    id: p1
+bh: 
+  Asia/Bahrain: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: BH
+    Point: 
+      coordinates: 
+        - 50.62789
+        - 26.27043
+        - 0
+    address: Bahrain International, Bahrain
+    id: p1
+bi: 
+  Africa/Bujumbura: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: BI
+        Locality: 
+          LocalityName: Bujumbura
+    Point: 
+      coordinates: 
+        - 29.36223
+        - -3.3818
+        - 0
+    address: Bujumbura, Burundi
+    id: p1
+bj: 
+  Africa/Porto-Novo: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Porto-Novo
+            SubAdministrativeAreaName: Oueme
+        CountryNameCode: BJ
+    Point: 
+      coordinates: 
+        - 2.6323
+        - 6.4779
+        - 0
+    address: Porto-Novo, Benin
+    id: p1
+bm: 
+  Atlantic/Bermuda: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: BM
+    Point: 
+      coordinates: 
+        - -64.677328
+        - 32.369689
+        - 0
+    address: Bermuda International, Bermuda
+    id: p1
+bn: 
+  Asia/Brunei: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: BN
+    Point: 
+      coordinates: 
+        - 114.9333
+        - 4.95
+        - 0
+    address: Brunei International, Brunei
+    id: p1
+bo: 
+  America/La_Paz: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Beni
+          Locality: 
+            LocalityName: La Paz
+        CountryNameCode: BO
+    Point: 
+      coordinates: 
+        - -66.193611
+        - -13.99075
+        - 0
+    address: La Paz, Beni, Bolivia
+    id: p1
+br: 
+  America/Araguaina: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: TO
+          Locality: 
+            LocalityName: Araguaína
+        CountryNameCode: BR
+    Point: 
+      coordinates: 
+        - -48.20779
+        - -7.192074
+        - 0
+    address: Araguaína, Brazil
+    id: p1
+  America/Bahia: 
+    AddressDetails: 
+      Accuracy: 2
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Bahia
+        CountryNameCode: BR
+    Point: 
+      coordinates: 
+        - -41.994208
+        - -13.42796
+        - 0
+    address: Brazil
+    id: p1
+  America/Belem: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: PA
+          Locality: 
+            LocalityName: Belém
+        CountryNameCode: BR
+    Point: 
+      coordinates: 
+        - -48.502368
+        - -1.45502
+        - 0
+    address: Belém, Brazil
+    id: p1
+  America/Boa_Vista: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: RR
+          Locality: 
+            LocalityName: Boa Vista
+        CountryNameCode: BR
+    Point: 
+      coordinates: 
+        - -60.671401
+        - 2.819538
+        - 0
+    address: Boa Vista, Brazil
+    id: p1
+  America/Campo_Grande: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: MS
+          Locality: 
+            LocalityName: Campo Grande
+        CountryNameCode: BR
+    Point: 
+      coordinates: 
+        - -54.647759
+        - -20.443505
+        - 0
+    address: Campo Grande, Brazil
+    id: p1
+  America/Cuiaba: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: MT
+          Locality: 
+            LocalityName: Cuiabá
+        CountryNameCode: BR
+    Point: 
+      coordinates: 
+        - -56.094894
+        - -15.598917
+        - 0
+    address: Cuiabá, Brazil
+    id: p1
+  America/Eirunepe: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: AM
+          Locality: 
+            LocalityName: Eirunepé
+        CountryNameCode: BR
+    Point: 
+      coordinates: 
+        - -69.87453
+        - -6.660352
+        - 0
+    address: Eirunepé, Brazil
+    id: p1
+  America/Fortaleza: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: CE
+          Locality: 
+            LocalityName: Fortaleza
+        CountryNameCode: BR
+    Point: 
+      coordinates: 
+        - -38.543395
+        - -3.718394
+        - 0
+    address: Fortaleza, Brazil
+    id: p1
+  America/Maceio: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: AL
+          Locality: 
+            LocalityName: Maceió
+        CountryNameCode: BR
+    Point: 
+      coordinates: 
+        - -35.735098
+        - -9.666251
+        - 0
+    address: Maceió, Brazil
+    id: p1
+  America/Manaus: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: AM
+          Locality: 
+            LocalityName: Manaus
+        CountryNameCode: BR
+    Point: 
+      coordinates: 
+        - -60.026127
+        - -3.107192
+        - 0
+    address: Manaus, Brazil
+    id: p1
+  America/Noronha: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: BR
+    Point: 
+      coordinates: 
+        - -46.688029
+        - -23.756401
+        - 0
+    address: Brazil
+    id: p1
+  America/Porto_Velho: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: RO
+          Locality: 
+            LocalityName: Porto Velho
+        CountryNameCode: BR
+    Point: 
+      coordinates: 
+        - -63.90196
+        - -8.761825
+        - 0
+    address: Porto Velho, Brazil
+    id: p1
+  America/Recife: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: PE
+          Locality: 
+            LocalityName: Recife
+        CountryNameCode: BR
+    Point: 
+      coordinates: 
+        - -34.881256
+        - -8.054277
+        - 0
+    address: Recife, Brazil
+    id: p1
+  America/Rio_Branco: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: AC
+          Locality: 
+            LocalityName: Rio Branco
+        CountryNameCode: BR
+    Point: 
+      coordinates: 
+        - -67.807568
+        - -9.973999
+        - 0
+    address: Rio Branco, Brazil
+    id: p1
+  America/Sao_Paulo: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: SP
+          Locality: 
+            LocalityName: São Paulo
+        CountryNameCode: BR
+    Point: 
+      coordinates: 
+        - -46.638818
+        - -23.548943
+        - 0
+    address: São Paulo, Brazil
+    id: p1
+bs: 
+  America/Nassau: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Bahamas
+          Locality: 
+            LocalityName: Nassau
+        CountryNameCode: BS
+    Point: 
+      coordinates: 
+        - -77.339025
+        - 25.066127
+        - 0
+    address: Nassau, Bahamas, Bahamas
+    id: p1
+bt: 
+  Asia/Thimphu: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: BT
+        Locality: 
+          LocalityName: Thimphu
+    Point: 
+      coordinates: 
+        - 89.673
+        - 27.4405
+        - 0
+    address: Thimphu, Bhutan
+    id: p1
+bw: 
+  Africa/Gaborone: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Gaborone
+            SubAdministrativeAreaName: South-East
+        CountryNameCode: BW
+    Point: 
+      coordinates: 
+        - 25.9089
+        - -24.657
+        - 0
+    address: Gaborone, Botswana
+    id: p1
+by: 
+  Europe/Minsk: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Gorad Minsk
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Minsk
+            SubAdministrativeAreaName: Minsk
+        CountryNameCode: BY
+    Point: 
+      coordinates: 
+        - 27.576555
+        - 53.967787
+        - 0
+    address: Minsk, Gorad Minsk, Belarus
+    id: p1
+bz: 
+  America/Belize: 
+    AddressDetails: 
+      Accuracy: 2
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Belize
+        CountryNameCode: BZ
+    Point: 
+      coordinates: 
+        - -88.403244
+        - 17.538333
+        - 0
+    address: Belize, Belize
+    id: p1
+ca: 
+  America/Atikokan: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: ON
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Atikokan
+            SubAdministrativeAreaName: Rainy River District
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -91.622167
+        - 48.755562
+        - 0
+    address: Atikokan, ON, Canada
+    id: p1
+  America/Blanc-Sablon: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: QC
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Blanc-Sablon
+            SubAdministrativeAreaName: Minganie--Basse-Côte-Nord
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -57.153016
+        - 51.428252
+        - 0
+    address: Blanc-Sablon, QC, Canada
+    id: p1
+  America/Cambridge_Bay: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Nunavut
+          Locality: 
+            LocalityName: Cambridge Bay
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -105.070503
+        - 69.112213
+        - 0
+    address: Cambridge Bay, Nunavut, Canada
+    id: p1
+  America/Dawson: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: YT
+          Locality: 
+            LocalityName: Dawson
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -139.416794
+        - 64.042839
+        - 0
+    address: Dawson, YT, Canada
+    id: p1
+  America/Dawson_Creek: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: BC
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Dawson Creek
+            SubAdministrativeAreaName: Peace River Regional District
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -120.224566
+        - 55.766763
+        - 0
+    address: Dawson Creek, BC, Canada
+    id: p1
+  America/Edmonton: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: AB
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Edmonton
+            SubAdministrativeAreaName: Division No. 11
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -113.493704
+        - 53.540969
+        - 0
+    address: Edmonton, AB, Canada
+    id: p1
+  America/Glace_Bay: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: CA
+        Locality: 
+          LocalityName: Glace Bay
+    Point: 
+      coordinates: 
+        - -59.956912
+        - 46.196968
+        - 0
+    address: Glace Bay, Canada
+    id: p1
+  America/Goose_Bay: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: NL
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Happy Valley-Goose Bay
+            SubAdministrativeAreaName: Division No. 10
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -60.361776
+        - 53.294238
+        - 0
+    address: Happy Valley-Goose Bay, NL, Canada
+    id: p1
+  America/Halifax: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: NS
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Halifax
+            SubAdministrativeAreaName: Halifax County
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -63.573566
+        - 44.646244
+        - 0
+    address: Halifax, NS, Canada
+    id: p1
+  America/Inuvik: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: NT
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Inuvik
+            SubAdministrativeAreaName: Inuvik Region
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -133.707602
+        - 68.365167
+        - 0
+    address: Inuvik, NT, Canada
+    id: p1
+  America/Iqaluit: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Nunavut
+          Locality: 
+            LocalityName: Iqaluit
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -68.540932
+        - 63.750332
+        - 0
+    address: Iqaluit, Nunavut, Canada
+    id: p1
+  America/Moncton: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: NB
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Moncton
+            SubAdministrativeAreaName: Westmorland County
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -64.775777
+        - 46.093697
+        - 0
+    address: Moncton, NB, Canada
+    id: p1
+  America/Montreal: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: QC
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Montréal
+            SubAdministrativeAreaName: Communauté-Urbaine-de-Montréal
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -73.639076
+        - 45.545447
+        - 0
+    address: Montréal, QC, Canada
+    id: p1
+  America/Nipigon: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: ON
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Nipigon
+            SubAdministrativeAreaName: Thunder Bay District
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -88.263333
+        - 49.015158
+        - 0
+    address: Nipigon, ON, Canada
+    id: p1
+  America/Pangnirtung: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Nunavut
+          Locality: 
+            LocalityName: Pangnirtung
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -65.702766
+        - 66.137802
+        - 0
+    address: Pangnirtung, Nunavut, Canada
+    id: p1
+  America/Rainy_River: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: ON
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Rainy River
+            SubAdministrativeAreaName: Rainy River District
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -94.559142
+        - 48.722087
+        - 0
+    address: Rainy River, ON, Canada
+    id: p1
+  America/Rankin_Inlet: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Nunavut
+          Locality: 
+            LocalityName: Rankin Inlet
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -92.079338
+        - 62.817551
+        - 0
+    address: Rankin Inlet, Nunavut, Canada
+    id: p1
+  America/Regina: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: SK
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Regina
+            SubAdministrativeAreaName: Division No. 6
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -104.618013
+        - 50.447234
+        - 0
+    address: Regina, SK, Canada
+    id: p1
+  America/Resolute: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Nunavut
+          Locality: 
+            LocalityName: Resolute
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -94.909393
+        - 74.686447
+        - 0
+    address: Resolute, Nunavut, Canada
+    id: p1
+  America/St_Johns: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: CA
+          Locality: 
+            DependentLocality: 
+              DependentLocalityName: Saint Johns
+            LocalityName: Woodlake
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -119.0975
+        - 36.38472
+        - 0
+    address: Saint Johns, Woodlake, CA, USA
+    id: p1
+  America/Swift_Current: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: SK
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Swift Current
+            SubAdministrativeAreaName: Division No. 8
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -107.79207
+        - 50.285195
+        - 0
+    address: Swift Current, SK, Canada
+    id: p1
+  America/Thunder_Bay: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: ON
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Thunder Bay
+            SubAdministrativeAreaName: Thunder Bay District
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -89.245935
+        - 48.406897
+        - 0
+    address: Thunder Bay, ON, Canada
+    id: p1
+  America/Toronto: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: ON
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Toronto
+            SubAdministrativeAreaName: Toronto Division
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -79.386755
+        - 43.670233
+        - 0
+    address: Toronto, ON, Canada
+    id: p1
+  America/Vancouver: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: BC
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Vancouver
+            SubAdministrativeAreaName: Greater Vancouver Regional District
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -123.138565
+        - 49.263588
+        - 0
+    address: Vancouver, BC, Canada
+    id: p1
+  America/Whitehorse: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: YT
+          Locality: 
+            LocalityName: Whitehorse
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -135.044006
+        - 60.725681
+        - 0
+    address: Whitehorse, YT, Canada
+    id: p1
+  America/Winnipeg: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: MB
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Winnipeg
+            SubAdministrativeAreaName: Division No. 11
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -97.138343
+        - 49.895543
+        - 0
+    address: Winnipeg, MB, Canada
+    id: p1
+  America/Yellowknife: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: NT
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Yellowknife
+            SubAdministrativeAreaName: Fort Smith Region
+        CountryNameCode: CA
+    Point: 
+      coordinates: 
+        - -114.369246
+        - 62.455249
+        - 0
+    address: Yellowknife, NT, Canada
+    id: p1
+cc: 
+  Indian/Cocos: 
+    AddressDetails: 
+      Accuracy: 2
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: WA
+        CountryNameCode: AU
+    Point: 
+      coordinates: 
+        - 96.874367
+        - -12.139748
+        - 0
+    address: Cocos (Keeling) Islands, WA, Australia
+    id: p1
+cd: 
+  Africa/Kinshasa: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: CD
+        Locality: 
+          LocalityName: Kinshasa
+    Point: 
+      coordinates: 
+        - 15.32705
+        - -4.3369
+        - 0
+    address: Kinshasa, Democratic Republic of Congo
+    id: p1
+  Africa/Lubumbashi: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Lubumbashi
+            SubAdministrativeAreaName: Katanga
+        CountryNameCode: CD
+    Point: 
+      coordinates: 
+        - 27.4857
+        - -11.67
+        - 0
+    address: Lubumbashi, Democratic Republic of Congo
+    id: p1
+cf: 
+  Africa/Bangui: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Ouaka
+          Locality: 
+            LocalityName: Bangui
+        CountryNameCode: CF
+    Point: 
+      coordinates: 
+        - 21.640659
+        - 5.630556
+        - 0
+    address: Bangui, Ouaka, Central African Republic
+    id: p1
+cg: 
+  Africa/Brazzaville: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Brazzaville
+            SubAdministrativeAreaName: Brazzaville
+        CountryNameCode: CG
+    Point: 
+      coordinates: 
+        - 15.2662
+        - -4.2767
+        - 0
+    address: Brazzaville, Congo
+    id: p1
+ch: 
+  Europe/Zurich: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Zürich
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Zürich
+            SubAdministrativeAreaName: Zürich
+        CountryNameCode: CH
+    Point: 
+      coordinates: 
+        - 8.538033
+        - 47.369024
+        - 0
+    address: Zürich, Switzerland
+    id: p1
+ci: 
+  Africa/Abidjan: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Sud
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Abidjan
+            SubAdministrativeAreaName: Abidjan
+        CountryNameCode: CI
+    Point: 
+      coordinates: 
+        - -4.0305
+        - 5.332
+        - 0
+    address: Abidjan, Sud, Cote D'Ivoire
+    id: p1
+ck: 
+  Pacific/Rarotonga: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: CK
+    Point: 
+      coordinates: 
+        - -159.771301
+        - -21.227339
+        - 0
+    address: Rarotonga, Cook Islands
+    id: p1
+cl: 
+  America/Santiago: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Regíon Metropolitana
+          Locality: 
+            LocalityName: Santiago
+        CountryNameCode: CL
+    Point: 
+      coordinates: 
+        - -70.641997
+        - -33.46912
+        - 0
+    address: Santiago, Regíon Metropolitana, Chile
+    id: p1
+  Pacific/Easter: 
+    AddressDetails: 
+      Accuracy: 6
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: CO
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Olathe
+              PostalCode: 
+                PostalCodeNumber: 81425
+              Thoroughfare: 
+                ThoroughfareName: Easter Rd
+            SubAdministrativeAreaName: Montrose
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -108.050209
+        - 38.606552
+        - 0
+    address: Easter Rd, Olathe, CO 81425, USA
+    id: p1
+cm: 
+  Africa/Douala: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Douala
+            SubAdministrativeAreaName: Littoral
+        CountryNameCode: CM
+    Point: 
+      coordinates: 
+        - 9.6977
+        - 4.0445
+        - 0
+    address: Douala, Cameroon
+    id: p1
+cn: 
+  Asia/Chongqing: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        AddressLine: 
+          - "   "
+        CountryNameCode: CN
+    Point: 
+      coordinates: 
+        - 106.545833
+        - 29.552778
+        - 0
+    address: "     "
+    id: p1
+  Asia/Harbin: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        AddressLine: 
+          - "        "
+        CountryNameCode: CN
+    Point: 
+      coordinates: 
+        - 126.65
+        - 45.761111
+        - 0
+    address: "          "
+    id: p1
+  Asia/Kashgar: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Almaty
+          Locality: 
+            LocalityName: Kashgar
+        CountryNameCode: KZ
+    Point: 
+      coordinates: 
+        - 79.816667
+        - 43.1
+        - 0
+    address: Kashgar, Almaty, Kazakhstan
+    id: p1
+  Asia/Shanghai: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        AddressLine: 
+          - "   "
+        CountryNameCode: CN
+    Point: 
+      coordinates: 
+        - 121.475
+        - 31.222222
+        - 0
+    address: "     "
+    id: p1
+  Asia/Urumqi: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        AddressLine: 
+          - "        Ürümqi"
+        CountryNameCode: CN
+    Point: 
+      coordinates: 
+        - 87.586517
+        - 43.782669
+        - 0
+    address: "          Ürümqi"
+    id: p1
+co: 
+  America/Bogota: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Cundinamarca
+          Locality: 
+            LocalityName: Bogotá
+        CountryNameCode: CO
+    Point: 
+      coordinates: 
+        - -74.096268
+        - 4.647302
+        - 0
+    address: Bogotá, Cundinamarca, Colombia
+    id: p1
+cr: 
+  America/Costa_Rica: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: CR
+    Point: 
+      coordinates: 
+        - -83.753428
+        - 9.748917
+        - 0
+    address: Costa Rica
+    id: p1
+cu: 
+  America/Havana: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: CU
+        Locality: 
+          LocalityName: La Habana
+    Point: 
+      coordinates: 
+        - -82.366667
+        - 23.133333
+        - 0
+    address: La Habana, Cuba
+    id: p1
+cv: 
+  Atlantic/Cape_Verde: 
+    AddressDetails: 
+      Accuracy: 6
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: TX
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Austin
+              PostalCode: 
+                PostalCodeNumber: 78744
+              Thoroughfare: 
+                ThoroughfareName: Cape Verde Cove
+            SubAdministrativeAreaName: Travis
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -97.740646
+        - 30.19314
+        - 0
+    address: Cape Verde Cove, Austin, TX 78744, USA
+    id: p1
+cx: 
+  Indian/Christmas: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: CX
+    Point: 
+      coordinates: 
+        - 105.690552
+        - -10.448889
+        - 0
+    address: Christmas Island, Christmas Island
+    id: p1
+cy: 
+  Asia/Nicosia: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Nicosia
+          Locality: 
+            LocalityName: Nicosia
+        CountryNameCode: CY
+    Point: 
+      coordinates: 
+        - 33.373621
+        - 35.167604
+        - 0
+    address: Nicosia, Nicosia, Cyprus
+    id: p1
+cz: 
+  Europe/Prague: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Hlavní m sto Praha
+          Locality: 
+            LocalityName: Praha
+        CountryNameCode: CZ
+    Point: 
+      coordinates: 
+        - 14.42046
+        - 50.087811
+        - 0
+    address: Praha, Czech Republic
+    id: p1
+de: 
+  Europe/Berlin: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Berlin
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Berlin
+            SubAdministrativeAreaName: Berlin
+        CountryNameCode: DE
+    Point: 
+      coordinates: 
+        - 13.411494
+        - 52.52348
+        - 0
+    address: Berlin, Germany
+    id: p1
+dj: 
+  Africa/Djibouti: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Djibouti
+            SubAdministrativeAreaName: Djibouti
+        CountryNameCode: DJ
+    Point: 
+      coordinates: 
+        - 43.1425
+        - 11.5806
+        - 0
+    address: Djibouti, Djibouti
+    id: p1
+dk: 
+  Europe/Copenhagen: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: København
+            SubAdministrativeAreaName: Hovedstaden
+        CountryNameCode: DK
+    Point: 
+      coordinates: 
+        - 12.568116
+        - 55.676294
+        - 0
+    address: København, Denmark
+    id: p1
+dm: 
+  America/Dominica: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: DM
+    Point: 
+      coordinates: 
+        - -61.333333
+        - 15.5
+        - 0
+    address: Dominica Cane, Dominica
+    id: p1
+do: 
+  America/Santo_Domingo: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Distrito Nacional
+          Locality: 
+            LocalityName: Santo Domingo
+        CountryNameCode: DO
+    Point: 
+      coordinates: 
+        - -69.890784
+        - 18.479014
+        - 0
+    address: Santo Domingo, Distrito Nacional, Dominican Republic
+    id: p1
+dz: 
+  Africa/Algiers: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Alger
+            SubAdministrativeAreaName: Alger
+        CountryNameCode: DZ
+    Point: 
+      coordinates: 
+        - 3.0597
+        - 36.7755
+        - 0
+    address: Alger, Algeria
+    id: p1
+ec: 
+  America/Guayaquil: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Guayas
+          Locality: 
+            LocalityName: Guayaquil
+        CountryNameCode: EC
+    Point: 
+      coordinates: 
+        - -79.897453
+        - -2.203816
+        - 0
+    address: Guayaquil, Guayas, Ecuador
+    id: p1
+  Pacific/Galapagos: 
+    AddressDetails: 
+      Accuracy: 2
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Galápagos
+        CountryNameCode: EC
+    Point: 
+      coordinates: 
+        - -90.625317
+        - 0.12736
+        - 0
+    address: Galápagos, Ecuador
+    id: p1
+ee: 
+  Europe/Tallinn: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Tallinn
+            SubAdministrativeAreaName: Harjumaa
+        CountryNameCode: EE
+    Point: 
+      coordinates: 
+        - 24.754471
+        - 59.438862
+        - 0
+    address: Tallinn, Estonia
+    id: p1
+eg: 
+  Africa/Cairo: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Cairo
+            SubAdministrativeAreaName: Al Qahirah
+        CountryNameCode: EG
+    Point: 
+      coordinates: 
+        - 31.2272
+        - 30.0571
+        - 0
+    address: Cairo, Egypt
+    id: p1
+eh: 
+  Africa/El_Aaiun: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Laâyoune
+          Locality: 
+            LocalityName: El Aaiún
+        CountryNameCode: EH
+    Point: 
+      coordinates: 
+        - -13.20163
+        - 27.16234
+        - 0
+    address: El Aaiún, Laâyoune, Western Sahara
+    id: p1
+er: 
+  Africa/Asmara: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: ER
+        Locality: 
+          LocalityName: Asmara
+    Point: 
+      coordinates: 
+        - 38.9183
+        - 15.3315
+        - 0
+    address: Asmara, Eritrea
+    id: p1
+es: 
+  Africa/Ceuta: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Ciudad de Ceuta
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Ceuta
+            SubAdministrativeAreaName: Ceuta
+        CountryNameCode: ES
+    Point: 
+      coordinates: 
+        - -5.316423
+        - 35.888611
+        - 0
+    address: Ceuta, Spain
+    id: p1
+  Atlantic/Canary: 
+    AddressDetails: 
+      Accuracy: 2
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Canary Islands
+        CountryNameCode: ES
+    Point: 
+      coordinates: 
+        - -15.78923
+        - 28.526353
+        - 0
+    address: Spain
+    id: p1
+  Europe/Madrid: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Comunidad de Madrid
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Madrid
+            SubAdministrativeAreaName: Madrid
+        CountryNameCode: ES
+    Point: 
+      coordinates: 
+        - -3.70327
+        - 40.416706
+        - 0
+    address: Madrid, Spain
+    id: p1
+et: 
+  Africa/Addis_Ababa: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: ET
+        Locality: 
+          LocalityName: Addis Ababa
+    Point: 
+      coordinates: 
+        - 38.75933
+        - 9.01157
+        - 0
+    address: Addis Ababa, Ethiopia
+    id: p1
+fi: 
+  Europe/Helsinki: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Etelä-Suomi
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Helsinki
+            SubAdministrativeAreaName: Uusimaa
+        CountryNameCode: FI
+    Point: 
+      coordinates: 
+        - 24.938408
+        - 60.169879
+        - 0
+    address: Helsinki, Finland
+    id: p1
+fj: 
+  Pacific/Fiji: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: FJ
+    Point: 
+      coordinates: 
+        - 179.414413
+        - -16.578193
+        - 0
+    address: Fiji
+    id: p1
+fk: 
+  Atlantic/Stanley: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: FK
+        Locality: 
+          LocalityName: Stanley
+    Point: 
+      coordinates: 
+        - -57.84919
+        - -51.700981
+        - 0
+    address: Stanley, Falkland Islands
+    id: p1
+fm: 
+  Pacific/Kosrae: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: FM
+    Point: 
+      coordinates: 
+        - 162.975555
+        - 5.350278
+        - 0
+    address: Kosrae, Micronesia
+    id: p1
+  Pacific/Ponape: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: FM
+    Point: 
+      coordinates: 
+        - 158.223137
+        - 6.884805
+        - 0
+    address: Ponape, Micronesia
+    id: p1
+  Pacific/Truk: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: FM
+    Point: 
+      coordinates: 
+        - 151.843384
+        - 7.459139
+        - 0
+    address: Truk International, Micronesia
+    id: p1
+fo: 
+  Atlantic/Faroe: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              DependentLocality: 
+                DependentLocalityName: Farø
+              LocalityName: Vordingborg
+            SubAdministrativeAreaName: Sjælland
+        CountryNameCode: DK
+    Point: 
+      coordinates: 
+        - 11.994824
+        - 54.949744
+        - 0
+    address: Farø, Vordingborg, Denmark
+    id: p1
+fr: 
+  Europe/Paris: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Ile-de-France
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Paris
+            SubAdministrativeAreaName: Paris
+        CountryNameCode: FR
+    Point: 
+      coordinates: 
+        - 2.350987
+        - 48.856667
+        - 0
+    address: Paris, France
+    id: p1
+ga: 
+  Africa/Libreville: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Libreville
+            SubAdministrativeAreaName: Estuaire
+        CountryNameCode: GA
+    Point: 
+      coordinates: 
+        - 9.4496
+        - 0.3858
+        - 0
+    address: Libreville, Gabon
+    id: p1
+gb: 
+  Europe/London: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: England
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: London
+            SubAdministrativeAreaName: Greater London
+        CountryNameCode: GB
+    Point: 
+      coordinates: 
+        - -0.126236
+        - 51.500152
+        - 0
+    address: London, Greater London, UK
+    id: p1
+gd: 
+  America/Grenada: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: GD
+    Point: 
+      coordinates: 
+        - -61.604171
+        - 12.262776
+        - 0
+    address: Grenada
+    id: p1
+ge: 
+  Asia/Tbilisi: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: GE
+        Locality: 
+          LocalityName: T'bilisi
+    Point: 
+      coordinates: 
+        - 44.792998
+        - 41.709981
+        - 0
+    address: T'bilisi, Georgia
+    id: p1
+gf: 
+  America/Cayenne: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Cayenne
+          Locality: 
+            LocalityName: Cayenne
+        CountryNameCode: GF
+    Point: 
+      coordinates: 
+        - -52.33033
+        - 4.93461
+        - 0
+    address: Cayenne, Cayenne, French Guiana
+    id: p1
+gg: 
+  Europe/Guernsey: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Bailiwick of Guernsey
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Guernsey
+            SubAdministrativeAreaName: Guernsey
+        CountryNameCode: GB
+    Point: 
+      coordinates: 
+        - -2.587128
+        - 49.464618
+        - 0
+    address: Guernsey, Guernsey, UK
+    id: p1
+gh: 
+  Africa/Accra: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: GH
+        Locality: 
+          LocalityName: Accra
+    Point: 
+      coordinates: 
+        - -0.20738
+        - 5.54009
+        - 0
+    address: Accra, Ghana
+    id: p1
+gi: 
+  Europe/Gibraltar: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: GI
+        Locality: 
+          LocalityName: Gibraltar
+    Point: 
+      coordinates: 
+        - -5.353252
+        - 36.144911
+        - 0
+    address: Gibraltar, Gibraltar
+    id: p1
+gl: 
+  America/Godthab: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Vestgronland
+          Locality: 
+            LocalityName: Nuuk
+        CountryNameCode: GL
+    Point: 
+      coordinates: 
+        - -51.721407
+        - 64.18362
+        - 0
+    address: Nuuk, Vestgronland, Greenland
+    id: p1
+  America/Scoresbysund: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Ostgronland
+          Locality: 
+            LocalityName: Scoresbysund
+        CountryNameCode: GL
+    Point: 
+      coordinates: 
+        - -21.963341
+        - 70.474373
+        - 0
+    address: Scoresbysund, Ostgronland, Greenland
+    id: p1
+  America/Thule: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Nordgronland
+          Locality: 
+            LocalityName: Thule
+        CountryNameCode: GL
+    Point: 
+      coordinates: 
+        - -69.345131
+        - 77.48262
+        - 0
+    address: Thule, Nordgronland, Greenland
+    id: p1
+gm: 
+  Africa/Banjul: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: GM
+        Locality: 
+          LocalityName: Banjul
+    Point: 
+      coordinates: 
+        - -16.6775
+        - 13.43988
+        - 0
+    address: Banjul, Gambia
+    id: p1
+gn: 
+  Africa/Conakry: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Conakry
+          Locality: 
+            LocalityName: Conakry
+        CountryNameCode: GN
+    Point: 
+      coordinates: 
+        - -13.67847
+        - 9.537029
+        - 0
+    address: Conakry, Conakry, Guinea
+    id: p1
+gp: 
+  America/Guadeloupe: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: GP
+    Point: 
+      coordinates: 
+        - -62.067641
+        - 16.995971
+        - 0
+    address: Guadeloupe
+    id: p1
+gq: 
+  Africa/Malabo: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Malabo
+            SubAdministrativeAreaName: Bioco
+        CountryNameCode: GQ
+    Point: 
+      coordinates: 
+        - 8.7741
+        - 3.7523
+        - 0
+    address: Malabo, Equatorial Guinea
+    id: p1
+gr: 
+  Europe/Athens: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Attiki
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Athina
+            SubAdministrativeAreaName: Athina
+        CountryNameCode: GR
+    Point: 
+      coordinates: 
+        - 23.716647
+        - 37.97918
+        - 0
+    address: Athina, Attiki, Greece
+    id: p1
+gs: 
+  Atlantic/South_Georgia: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: GA
+          Locality: 
+            LocalityName: South Augusta
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -82.035827
+        - 33.400876
+        - 0
+    address: South Augusta, GA, USA
+    id: p1
+gt: 
+  America/Guatemala: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Guatemala
+          Locality: 
+            LocalityName: Guatemala
+        CountryNameCode: GT
+    Point: 
+      coordinates: 
+        - -90.532818
+        - 14.624795
+        - 0
+    address: Guatemala, Guatemala, Guatemala
+    id: p1
+gu: 
+  Pacific/Guam: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: GU
+    Point: 
+      coordinates: 
+        - 144.793731
+        - 13.444304
+        - 0
+    address: Guam
+    id: p1
+gw: 
+  Africa/Bissau: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Bissau
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Bissau
+            SubAdministrativeAreaName: Bissau
+        CountryNameCode: GW
+    Point: 
+      coordinates: 
+        - -15.5875
+        - 11.8598
+        - 0
+    address: Bissau, Bissau, Guinea-Bissau
+    id: p1
+gy: 
+  America/Guyana: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: GY
+    Point: 
+      coordinates: 
+        - -58.93018
+        - 4.860416
+        - 0
+    address: Guyana
+    id: p1
+hk: 
+  Asia/Hong_Kong: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Hong Kong
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Central
+            SubAdministrativeAreaName: Hong Kong
+        CountryNameCode: HK
+    Point: 
+      coordinates: 
+        - 114.161346
+        - 22.281873
+        - 0
+    address: Hong KongCentral, Hong Kong
+    id: p1
+hn: 
+  America/Tegucigalpa: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Yoro
+          Locality: 
+            LocalityName: Tegucigalpa
+        CountryNameCode: HN
+    Point: 
+      coordinates: 
+        - -87.466667
+        - 15.133333
+        - 0
+    address: Tegucigalpa, Yoro, Honduras
+    id: p1
+hr: 
+  Europe/Zagreb: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Zagreb
+            SubAdministrativeAreaName: Grad Zagreb
+        CountryNameCode: HR
+    Point: 
+      coordinates: 
+        - 15.96053
+        - 45.79695
+        - 0
+    address: Zagreb, Hrvatska
+    id: p1
+ht: 
+  America/Port-au-Prince: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: HT
+        Locality: 
+          LocalityName: Port-au-Prince
+    Point: 
+      coordinates: 
+        - -72.328789
+        - 18.539208
+        - 0
+    address: Port-au-Prince, Haiti
+    id: p1
+hu: 
+  Europe/Budapest: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Budapest
+          Locality: 
+            LocalityName: Budapest
+        CountryNameCode: HU
+    Point: 
+      coordinates: 
+        - 19.040759
+        - 47.498403
+        - 0
+    address: Budapest, Hungary
+    id: p1
+id: 
+  Asia/Jakarta: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: ID
+        Locality: 
+          LocalityName: Jakarta
+    Point: 
+      coordinates: 
+        - 106.8063
+        - -6.18619
+        - 0
+    address: Jakarta, Indonesia
+    id: p1
+  Asia/Jayapura: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Jayapura
+            SubAdministrativeAreaName: Irian Jaya
+        CountryNameCode: ID
+    Point: 
+      coordinates: 
+        - 140.715
+        - -2.54319
+        - 0
+    address: Jayapura, Indonesia
+    id: p1
+  Asia/Makassar: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Makassar
+            SubAdministrativeAreaName: Sulawesi Selatan
+        CountryNameCode: ID
+    Point: 
+      coordinates: 
+        - 119.4016
+        - -5.14549
+        - 0
+    address: Makassar, Indonesia
+    id: p1
+  Asia/Pontianak: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Pontianak
+            SubAdministrativeAreaName: Kalimantan Barat
+        CountryNameCode: ID
+    Point: 
+      coordinates: 
+        - 109.3513
+        - -0.02599
+        - 0
+    address: Pontianak, Indonesia
+    id: p1
+ie: 
+  Europe/Dublin: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Dublin
+            SubAdministrativeAreaName: Dublin
+        CountryNameCode: IE
+    Point: 
+      coordinates: 
+        - -6.267494
+        - 53.344104
+        - 0
+    address: Dublin, Ireland
+    id: p1
+il: 
+  Asia/Jerusalem: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: IL
+        Locality: 
+          LocalityName: Jerusalem
+    Point: 
+      coordinates: 
+        - 35.2007
+        - 31.7857
+        - 0
+    address: Jerusalem, Israel
+    id: p1
+im: 
+  Europe/Isle_of_Man: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Isle of Man
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Isle of Man
+            SubAdministrativeAreaName: Isle of Man
+        CountryNameCode: GB
+    Point: 
+      coordinates: 
+        - -4.569692
+        - 54.23073
+        - 0
+    address: Isle of Man, Isle of Man, UK
+    id: p1
+in: 
+  Asia/Calcutta: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: West Bengal
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Kolkata
+            SubAdministrativeAreaName: Kolkata
+        CountryNameCode: IN
+    Point: 
+      coordinates: 
+        - 88.363895
+        - 22.572646
+        - 0
+    address: Kolkata, Kolkata, West Bengal, India
+    id: p1
+iq: 
+  Asia/Baghdad: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: IQ
+        Locality: 
+          LocalityName: Baghdad
+    Point: 
+      coordinates: 
+        - 44.3922
+        - 33.3157
+        - 0
+    address: Baghdad, Iraq
+    id: p1
+ir: 
+  Asia/Tehran: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: IR
+        Locality: 
+          LocalityName: Teheran
+    Point: 
+      coordinates: 
+        - 51.4358
+        - 35.7061
+        - 0
+    address: Teheran, Iran
+    id: p1
+is: 
+  Atlantic/Reykjavik: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: IS
+        Locality: 
+          LocalityName: Reykjavík
+    Point: 
+      coordinates: 
+        - -21.89521
+        - 64.135338
+        - 0
+    address: Reykjavík, Iceland
+    id: p1
+it: 
+  Europe/Rome: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Lazio
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Roma
+            SubAdministrativeAreaName: Roma
+        CountryNameCode: IT
+    Point: 
+      coordinates: 
+        - 12.482324
+        - 41.895466
+        - 0
+    address: Roma, Roma (Lazio), Italy
+    id: p1
+je: 
+  Europe/Jersey: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Bailiwick of Jersey
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Bailiwick of Jersey
+            SubAdministrativeAreaName: Bailiwick of Jersey
+        CountryNameCode: GB
+    Point: 
+      coordinates: 
+        - -2.131238
+        - 49.21417
+        - 0
+    address: Bailiwick of Jersey, Bailiwick of Jersey, UK
+    id: p1
+jm: 
+  America/Jamaica: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: JM
+    Point: 
+      coordinates: 
+        - -77.297508
+        - 18.109581
+        - 0
+    address: Jamaica
+    id: p1
+jo: 
+  Asia/Amman: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: JO
+        Locality: 
+          LocalityName: Amman
+    Point: 
+      coordinates: 
+        - 35.9349
+        - 31.9394
+        - 0
+    address: Amman, Jordan
+    id: p1
+jp: 
+  Asia/Tokyo: 
+    AddressDetails: 
+      Accuracy: 2
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: "   "
+        CountryNameCode: JP
+    Point: 
+      coordinates: 
+        - 139.682282
+        - 35.678451
+        - 0
+    address: "Japan   "
+    id: p1
+ke: 
+  Africa/Nairobi: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Nairobi
+            SubAdministrativeAreaName: Nairobi Area
+        CountryNameCode: KE
+    Point: 
+      coordinates: 
+        - 36.7965
+        - -1.2762
+        - 0
+    address: Nairobi, Kenya
+    id: p1
+kg: 
+  Asia/Bishkek: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: KG
+        Locality: 
+          LocalityName: Bishkek
+    Point: 
+      coordinates: 
+        - 74.5984
+        - 42.8679
+        - 0
+    address: Bishkek, Kyrgyzstan
+    id: p1
+kh: 
+  Asia/Phnom_Penh: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: KH
+        Locality: 
+          LocalityName: Phnom Penh
+    Point: 
+      coordinates: 
+        - 104.8984
+        - 11.5434
+        - 0
+    address: Phnom Penh, Cambodia
+    id: p1
+ki: 
+  Pacific/Enderbury: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: KI
+    Point: 
+      coordinates: 
+        - -171.086433
+        - -3.126828
+        - 0
+    address: Enderbury Island, Kiribati
+    id: p1
+  Pacific/Kiritimati: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: KI
+    Point: 
+      coordinates: 
+        - -157.354512
+        - 1.876834
+        - 0
+    address: Kiritimati \/ Christmas Island, Kiribati
+    id: p1
+  Pacific/Tarawa: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: KI
+        Locality: 
+          LocalityName: Tarawa
+    Point: 
+      coordinates: 
+        - 173.1558
+        - 1.3645
+        - 0
+    address: Tarawa, Kiribati
+    id: p1
+km: 
+  Indian/Comoro: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: TL
+    Point: 
+      coordinates: 
+        - 125.5261
+        - -8.5533
+        - 0
+    address: Comoro, Timor-Leste
+    id: p1
+kn: 
+  America/St_Kitts: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: SA
+          Locality: 
+            LocalityName: St Kitts
+        CountryNameCode: AU
+    Point: 
+      coordinates: 
+        - 139.101226
+        - -34.352862
+        - 0
+    address: St Kitts, SA, Australia
+    id: p1
+kp: 
+  Asia/Pyongyang: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: KP
+        Locality: 
+          LocalityName: Pyongyang
+    Point: 
+      coordinates: 
+        - 125.7468
+        - 39.0187
+        - 0
+    address: Pyongyang, North Korea
+    id: p1
+kr: 
+  Asia/Seoul: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: KR
+        Locality: 
+          LocalityName: Soul
+    Point: 
+      coordinates: 
+        - 126.9828
+        - 37.5139
+        - 0
+    address: Soul, Korea
+    id: p1
+kw: 
+  Asia/Kuwait: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: KW
+        Locality: 
+          LocalityName: Kuwait
+    Point: 
+      coordinates: 
+        - 47.9824
+        - 29.3721
+        - 0
+    address: Kuwait, Kuwait
+    id: p1
+ky: 
+  America/Cayman: 
+    AddressDetails: 
+      Accuracy: 6
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Bay of Plenty
+          Locality: 
+            LocalityName: Papamoa Beach West
+            PostalCode: 
+              PostalCodeNumber: 3118
+            Thoroughfare: 
+              ThoroughfareName: Cayman Key
+        CountryNameCode: NZ
+    Point: 
+      coordinates: 
+        - 176.276183
+        - -37.700419
+        - 0
+    address: Cayman Key, Papamoa Beach West, Bay of Plenty 3118, New Zealand
+    id: p1
+kz: 
+  Asia/Almaty: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: KZ
+        Locality: 
+          LocalityName: Alma-Ata
+    Point: 
+      coordinates: 
+        - 76.9292
+        - 43.2758
+        - 0
+    address: Alma-Ata, Kazakhstan
+    id: p1
+  Asia/Aqtau: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Aqtau
+            SubAdministrativeAreaName: Mangghystau
+        CountryNameCode: KZ
+    Point: 
+      coordinates: 
+        - 51.1768
+        - 43.6311
+        - 0
+    address: Aqtau, Kazakhstan
+    id: p1
+  Asia/Aqtobe: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Aqtobe
+          Locality: 
+            LocalityName: Aqtöbe
+        CountryNameCode: KZ
+    Point: 
+      coordinates: 
+        - 57.23138
+        - 50.270931
+        - 0
+    address: Aqtöbe, Aqtobe, Kazakhstan
+    id: p1
+  Asia/Oral: 
+    AddressDetails: 
+      Accuracy: 3
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: TN
+          SubAdministrativeArea: 
+            Locality: 
+              DependentLocality: 
+                DependentLocalityName: Oral
+            SubAdministrativeAreaName: Roane
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -84.356293
+        - 35.833355
+        - 0
+    address: Oral, TN, USA
+    id: p1
+  Asia/Qyzylorda: 
+    AddressDetails: 
+      Accuracy: 2
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Qyzylorda
+        CountryNameCode: KZ
+    Point: 
+      coordinates: 
+        - 63.493491
+        - 45.137857
+        - 0
+    address: Qyzylorda, Kazakhstan
+    id: p1
+la: 
+  Asia/Vientiane: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: LA
+        Locality: 
+          LocalityName: Vientiane
+    Point: 
+      coordinates: 
+        - 102.6137
+        - 17.9689
+        - 0
+    address: Vientiane, Laos
+    id: p1
+lb: 
+  Asia/Beirut: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Bayrut
+          Locality: 
+            LocalityName: Bayrut
+        CountryNameCode: LB
+    Point: 
+      coordinates: 
+        - 35.513404
+        - 33.887189
+        - 0
+    address: Bayrut, Bayrut, Lebanon
+    id: p1
+lc: 
+  America/St_Lucia: 
+    AddressDetails: 
+      Accuracy: 6
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Lombardia
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Calolziocorte
+              PostalCode: 
+                PostalCodeNumber: 23801
+              Thoroughfare: 
+                ThoroughfareName: Via Lucia
+            SubAdministrativeAreaName: LC
+        CountryNameCode: IT
+    Point: 
+      coordinates: 
+        - 9.427576
+        - 45.807489
+        - 0
+    address: Via Lucia, 23801 Calolziocorte, LC (Lombardia), Italy
+    id: p1
+li: 
+  Europe/Vaduz: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Vaduz
+            SubAdministrativeAreaName: Oberland
+        CountryNameCode: LI
+    Point: 
+      coordinates: 
+        - 9.521482
+        - 47.141076
+        - 0
+    address: Vaduz, Liechtenstein
+    id: p1
+lk: 
+  Asia/Colombo: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: LK
+        Locality: 
+          LocalityName: Colombo
+    Point: 
+      coordinates: 
+        - 79.8572
+        - 6.9155
+        - 0
+    address: Colombo, Sri Lanka
+    id: p1
+lr: 
+  Africa/Monrovia: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Monrovia
+            SubAdministrativeAreaName: Montserrado
+        CountryNameCode: LR
+    Point: 
+      coordinates: 
+        - -10.7943
+        - 6.3
+        - 0
+    address: Monrovia, Liberia
+    id: p1
+ls: 
+  Africa/Maseru: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: LS
+        Locality: 
+          LocalityName: Maseru
+    Point: 
+      coordinates: 
+        - 27.4854
+        - -29.2976
+        - 0
+    address: Maseru, Lesotho
+    id: p1
+lt: 
+  Europe/Vilnius: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Vilnius
+            SubAdministrativeAreaName: Vilniaus apskritis
+        CountryNameCode: LT
+    Point: 
+      coordinates: 
+        - 25.279935
+        - 54.689631
+        - 0
+    address: Vilnius, Lithuania
+    id: p1
+lu: 
+  Europe/Luxembourg: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Luxembourg
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Luxembourg
+            SubAdministrativeAreaName: Luxembourg
+        CountryNameCode: LU
+    Point: 
+      coordinates: 
+        - 6.129596
+        - 49.610004
+        - 0
+    address: Luxembourg, Luxembourg
+    id: p1
+lv: 
+  Europe/Riga: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: R ga
+            SubAdministrativeAreaName: R ga
+        CountryNameCode: LV
+    Point: 
+      coordinates: 
+        - 24.104849
+        - 56.946538
+        - 0
+    address: R ga, Latvia
+    id: p1
+ly: 
+  Africa/Tripoli: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: LY
+        Locality: 
+          LocalityName: Tripoli
+    Point: 
+      coordinates: 
+        - 13.17994
+        - 32.8846
+        - 0
+    address: Tripoli, Libya
+    id: p1
+ma: 
+  Africa/Casablanca: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Casablanca
+            SubAdministrativeAreaName: Casablanca
+        CountryNameCode: MA
+    Point: 
+      coordinates: 
+        - -7.6089
+        - 33.5889
+        - 0
+    address: Casablanca, Morocco
+    id: p1
+mc: 
+  Europe/Monaco: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: MC
+        Locality: 
+          LocalityName: Monaco
+    Point: 
+      coordinates: 
+        - 7.418907
+        - 43.732529
+        - 0
+    address: Monaco, Monaco
+    id: p1
+md: 
+  Europe/Chisinau: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Chi in u
+            SubAdministrativeAreaName: mun. Chisinau
+        CountryNameCode: MD
+    Point: 
+      coordinates: 
+        - 28.849741
+        - 47.016717
+        - 0
+    address: Chi in u, Moldova
+    id: p1
+me: 
+  Europe/Podgorica: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: ME
+        Locality: 
+          DependentLocality: 
+            DependentLocalityName: Podgorica
+          LocalityName: Crna Gora
+    Point: 
+      coordinates: 
+        - 19.259529
+        - 42.46021
+        - 0
+    address: Podgorica, Crna Gora, Montenegro
+    id: p1
+mg: 
+  Indian/Antananarivo: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Antsiranana
+          Locality: 
+            LocalityName: Antananarivo
+        CountryNameCode: MG
+    Point: 
+      coordinates: 
+        - 49.716667
+        - -13.366667
+        - 0
+    address: Antananarivo, Antsiranana, Madagascar
+    id: p1
+mh: 
+  Pacific/Kwajalein: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: MH
+    Point: 
+      coordinates: 
+        - 167.728027
+        - 8.714028
+        - 0
+    address: Kwajalein, Marshall Islands
+    id: p1
+  Pacific/Majuro: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: MH
+    Point: 
+      coordinates: 
+        - 171.134559
+        - 7.110464
+        - 0
+    address: Majuro Island, Marshall Islands
+    id: p1
+mk: 
+  Europe/Skopje: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: MK
+        Locality: 
+          LocalityName: Skopje
+    Point: 
+      coordinates: 
+        - 21.436097
+        - 42.002411
+        - 0
+    address: Skopje, Macedonia
+    id: p1
+ml: 
+  Africa/Bamako: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: ML
+        Locality: 
+          LocalityName: Bamako
+    Point: 
+      coordinates: 
+        - -7.94296
+        - 12.58454
+        - 0
+    address: Bamako, Mali
+    id: p1
+mm: 
+  Asia/Rangoon: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: MM
+        Locality: 
+          LocalityName: Rangoon
+    Point: 
+      coordinates: 
+        - 96.1419
+        - 16.867
+        - 0
+    address: Rangoon, Union of Myanmar
+    id: p1
+mn: 
+  Asia/Hovd: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Bayan-Ölgiy
+          Locality: 
+            LocalityName: Hovd
+        CountryNameCode: MN
+    Point: 
+      coordinates: 
+        - 90.518806
+        - 49.307098
+        - 0
+    address: Hovd, Bayan-Ölgiy, Mongolia
+    id: p1
+  Asia/Ulaanbaatar: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: MN
+        Locality: 
+          LocalityName: Ulaanbaatar
+    Point: 
+      coordinates: 
+        - 106.922
+        - 47.9138
+        - 0
+    address: Ulaanbaatar, Mongolia
+    id: p1
+mo: 
+  Asia/Macau: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Macau
+          Locality: 
+            LocalityName: Macau
+        CountryNameCode: MO
+    Point: 
+      coordinates: 
+        - 113.544202
+        - 22.201874
+        - 0
+    address: Macau, Macau, Macao
+    id: p1
+mp: 
+  Pacific/Saipan: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: MP
+        Locality: 
+          LocalityName: Saipan
+    Point: 
+      coordinates: 
+        - 145.755997
+        - 15.18093
+        - 0
+    address: Saipan, Northern Mariana Islands
+    id: p1
+mq: 
+  America/Martinique: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: MQ
+    Point: 
+      coordinates: 
+        - -61.024174
+        - 14.641528
+        - 0
+    address: Martinique
+    id: p1
+mr: 
+  Africa/Nouakchott: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Nouakchott
+            SubAdministrativeAreaName: Trarza
+        CountryNameCode: MR
+    Point: 
+      coordinates: 
+        - -16.021
+        - 18.3168
+        - 0
+    address: Nouakchott, Mauritania
+    id: p1
+ms: 
+  America/Montserrat: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: MS
+    Point: 
+      coordinates: 
+        - -62.2
+        - 16.7
+        - 0
+    address: Montserrat Blackburne, Montserrat
+    id: p1
+mt: 
+  Europe/Malta: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: MT
+          Locality: 
+            LocalityName: Malta
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -107.874735
+        - 48.355393
+        - 0
+    address: Malta, MT, USA
+    id: p1
+mu: 
+  Indian/Mauritius: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: MU
+    Point: 
+      coordinates: 
+        - 57.552152
+        - -20.348404
+        - 0
+    address: Mauritius
+    id: p1
+mv: 
+  Indian/Maldives: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: MV
+    Point: 
+      coordinates: 
+        - 73.22068
+        - 3.202778
+        - 0
+    address: Maldives
+    id: p1
+mw: 
+  Africa/Blantyre: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Southern
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Blantyre
+            SubAdministrativeAreaName: Blantyre
+        CountryNameCode: MW
+    Point: 
+      coordinates: 
+        - 35.0176
+        - -15.7961
+        - 0
+    address: Blantyre, Southern, Malawi
+    id: p1
+mx: 
+  America/Cancun: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Quintana Roo
+          Locality: 
+            LocalityName: Cancún
+        CountryNameCode: MX
+    Point: 
+      coordinates: 
+        - -86.830908
+        - 21.165668
+        - 0
+    address: Cancún, Quintana Roo, Mexico
+    id: p1
+  America/Chihuahua: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Chihuahua
+          Locality: 
+            LocalityName: Chihuahua
+        CountryNameCode: MX
+    Point: 
+      coordinates: 
+        - -106.080177
+        - 28.632492
+        - 0
+    address: Chihuahua, Chihuahua, Mexico
+    id: p1
+  America/Hermosillo: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Sonora
+          Locality: 
+            LocalityName: Hermosillo
+        CountryNameCode: MX
+    Point: 
+      coordinates: 
+        - -110.96133
+        - 29.089186
+        - 0
+    address: Hermosillo, Sonora, Mexico
+    id: p1
+  America/Mazatlan: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Guerrero
+          Locality: 
+            LocalityName: Mazatlán
+        CountryNameCode: MX
+    Point: 
+      coordinates: 
+        - -99.465515
+        - 17.435428
+        - 0
+    address: Mazatlán, Guerrero, Mexico
+    id: p1
+  America/Merida: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Yucatán
+          Locality: 
+            LocalityName: Mérida
+        CountryNameCode: MX
+    Point: 
+      coordinates: 
+        - -89.619006
+        - 20.997879
+        - 0
+    address: Mérida, Yucatán, Mexico
+    id: p1
+  America/Mexico_City: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Distrito Federal
+          Locality: 
+            LocalityName: Ciudad de México
+        CountryNameCode: MX
+    Point: 
+      coordinates: 
+        - -99.127571
+        - 19.42705
+        - 0
+    address: Ciudad de México, Distrito Federal, Mexico
+    id: p1
+  America/Monterrey: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Nuevo León
+          Locality: 
+            LocalityName: Monterrey
+        CountryNameCode: MX
+    Point: 
+      coordinates: 
+        - -100.305238
+        - 25.685255
+        - 0
+    address: Monterrey, Nuevo León, Mexico
+    id: p1
+  America/Tijuana: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Baja California
+          Locality: 
+            LocalityName: Tijuana
+        CountryNameCode: MX
+    Point: 
+      coordinates: 
+        - -117.038247
+        - 32.514947
+        - 0
+    address: Tijuana, Baja California, Mexico
+    id: p1
+my: 
+  Asia/Kuala_Lumpur: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Kuala Lumpur
+          Locality: 
+            LocalityName: Kuala Lumpur
+        CountryNameCode: MY
+    Point: 
+      coordinates: 
+        - 101.707703
+        - 3.15021
+        - 0
+    address: Kuala Lumpur, Kuala Lumpur, Malaysia
+    id: p1
+  Asia/Kuching: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Sarawak
+          Locality: 
+            LocalityName: Kuching
+        CountryNameCode: MY
+    Point: 
+      coordinates: 
+        - 110.3442
+        - 1.549073
+        - 0
+    address: Kuching, Sarawak, Malaysia
+    id: p1
+mz: 
+  Africa/Maputo: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Maputo
+            SubAdministrativeAreaName: Maputo
+        CountryNameCode: MZ
+    Point: 
+      coordinates: 
+        - 32.5804
+        - -25.9686
+        - 0
+    address: Maputo, Mozambique
+    id: p1
+na: 
+  Africa/Windhoek: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Windhoek
+            SubAdministrativeAreaName: Windhoek
+        CountryNameCode: NA
+    Point: 
+      coordinates: 
+        - 17.0805
+        - -22.5749
+        - 0
+    address: Windhoek, Namibia
+    id: p1
+nc: 
+  Pacific/Noumea: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: NC
+        Locality: 
+          LocalityName: Nouméa
+    Point: 
+      coordinates: 
+        - 166.4703
+        - -22.23549
+        - 0
+    address: Nouméa, New Caledonia
+    id: p1
+ne: 
+  Africa/Niamey: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: NE
+        Locality: 
+          LocalityName: Niamey
+    Point: 
+      coordinates: 
+        - 2.06677
+        - 13.54508
+        - 0
+    address: Niamey, Niger
+    id: p1
+nf: 
+  Pacific/Norfolk: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: NF
+    Point: 
+      coordinates: 
+        - 167.938057
+        - -29.045213
+        - 0
+    address: Norfolk Island International, Norfolk Island
+    id: p1
+ng: 
+  Africa/Lagos: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Lagos
+            SubAdministrativeAreaName: Lagos
+        CountryNameCode: NG
+    Point: 
+      coordinates: 
+        - 3.4393
+        - 6.4473
+        - 0
+    address: Lagos, Nigeria
+    id: p1
+ni: 
+  America/Managua: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Managua
+          Locality: 
+            LocalityName: Managua
+        CountryNameCode: NI
+    Point: 
+      coordinates: 
+        - -86.27339
+        - 12.14746
+        - 0
+    address: Managua, Managua, Nicaragua
+    id: p1
+nl: 
+  Europe/Amsterdam: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Noord-Holland
+          Locality: 
+            LocalityName: Amsterdam
+        CountryNameCode: NL
+    Point: 
+      coordinates: 
+        - 4.890951
+        - 52.373812
+        - 0
+    address: Amsterdam (Noord-Holland), Netherlands
+    id: p1
+no: 
+  Europe/Oslo: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Oslo
+            SubAdministrativeAreaName: Oslo
+        CountryNameCode: NO
+    Point: 
+      coordinates: 
+        - 10.738741
+        - 59.91382
+        - 0
+    address: Oslo, Norway
+    id: p1
+np: 
+  Asia/Katmandu: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: NP
+        Locality: 
+          LocalityName: Kathmandu
+    Point: 
+      coordinates: 
+        - 85.3157
+        - 27.7058
+        - 0
+    address: Kathmandu, Nepal
+    id: p1
+nr: 
+  Pacific/Nauru: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: NR
+    Point: 
+      coordinates: 
+        - 166.931503
+        - -0.522778
+        - 0
+    address: Nauru
+    id: p1
+nu: 
+  Pacific/Niue: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: NU
+    Point: 
+      coordinates: 
+        - -169.867233
+        - -19.054445
+        - 0
+    address: Niue
+    id: p1
+nz: 
+  Pacific/Auckland: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Auckland
+          Locality: 
+            LocalityName: Auckland
+        CountryNameCode: NZ
+    Point: 
+      coordinates: 
+        - 174.765735
+        - -36.847385
+        - 0
+    address: Auckland, Auckland, New Zealand
+    id: p1
+  Pacific/Chatham: 
+    AddressDetails: 
+      Accuracy: 2
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Chatham Islands
+        CountryNameCode: NZ
+    Point: 
+      coordinates: 
+        - -176.38372
+        - -44.004282
+        - 0
+    address: Chatham Islands, New Zealand
+    id: p1
+om: 
+  Asia/Muscat: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: OM
+        Locality: 
+          LocalityName: Muscat
+    Point: 
+      coordinates: 
+        - 58.5922
+        - 23.6086
+        - 0
+    address: Muscat, Oman
+    id: p1
+pa: 
+  America/Panama: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Panamá
+          Locality: 
+            LocalityName: Panamá
+        CountryNameCode: PA
+    Point: 
+      coordinates: 
+        - -79.518792
+        - 8.994269
+        - 0
+    address: Panamá, Panamá, Panama
+    id: p1
+pe: 
+  America/Lima: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Lima
+          Locality: 
+            LocalityName: Lima
+        CountryNameCode: PE
+    Point: 
+      coordinates: 
+        - -77.046491
+        - -12.093084
+        - 0
+    address: Lima, Lima, Peru
+    id: p1
+pf: 
+  Pacific/Gambier: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: OH
+          Locality: 
+            LocalityName: Gambier
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -82.397072
+        - 40.37684
+        - 0
+    address: Gambier, OH, USA
+    id: p1
+  Pacific/Marquesas: 
+    AddressDetails: 
+      Accuracy: 6
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Tamaulipas
+          Locality: 
+            LocalityName: Reynosa
+            Thoroughfare: 
+              ThoroughfareName: Marquesas
+        CountryNameCode: MX
+    Point: 
+      coordinates: 
+        - -98.266098
+        - 26.070094
+        - 0
+    address: Marquesas, Reynosa, Tamaulipas, Mexico
+    id: p1
+  Pacific/Tahiti: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: PF
+    Point: 
+      coordinates: 
+        - -149.376007
+        - -17.690171
+        - 0
+    address: Tahiti, French Polynesia
+    id: p1
+pg: 
+  Pacific/Port_Moresby: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: PG
+        Locality: 
+          LocalityName: Port Moresby
+    Point: 
+      coordinates: 
+        - 147.1969
+        - -9.46559
+        - 0
+    address: Port Moresby, Papua New Guinea
+    id: p1
+ph: 
+  Asia/Manila: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: National Capital Region
+          Locality: 
+            LocalityName: Manila
+        CountryNameCode: PH
+    Point: 
+      coordinates: 
+        - 120.9726
+        - 14.579
+        - 0
+    address: Manila, National Capital Region, Philippines
+    id: p1
+pk: 
+  Asia/Karachi: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: PK
+        Locality: 
+          LocalityName: Karachi
+    Point: 
+      coordinates: 
+        - 67.0083
+        - 24.851
+        - 0
+    address: Karachi, Pakistan
+    id: p1
+pl: 
+  Europe/Warsaw: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Mazowieckie
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Warszawa
+            SubAdministrativeAreaName: Warszawa
+        CountryNameCode: PL
+    Point: 
+      coordinates: 
+        - 21.012229
+        - 52.229676
+        - 0
+    address: Warszawa, Poland
+    id: p1
+pm: 
+  America/Miquelon: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: PM
+    Point: 
+      coordinates: 
+        - -56.375322
+        - 47.092444
+        - 0
+    address: Miquelon, St. Pierre and Miquelon
+    id: p1
+pn: 
+  Pacific/Pitcairn: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: PN
+    Point: 
+      coordinates: 
+        - -127.439308
+        - -24.703615
+        - 0
+    address: Pitcairn Island
+    id: p1
+pr: 
+  America/Puerto_Rico: 
+    AddressDetails: 
+      Accuracy: 6
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: San Juan
+              Thoroughfare: 
+                ThoroughfareName: Av Puerto Rico
+            SubAdministrativeAreaName: San Juan
+        CountryNameCode: PR
+    Point: 
+      coordinates: 
+        - -66.050472
+        - 18.444553
+        - 0
+    address: Av Puerto Rico, San Juan, Puerto Rico
+    id: p1
+ps: 
+  Asia/Gaza: 
+    AddressDetails: 
+      Accuracy: 4
+      Locality: 
+        LocalityName: Gaza
+    Point: 
+      coordinates: 
+        - 34.445808
+        - 31.52425
+        - 0
+    address: Gaza
+    id: p1
+pt: 
+  Atlantic/Azores: 
+    AddressDetails: 
+      Accuracy: 2
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Azores
+        CountryNameCode: PT
+    Point: 
+      coordinates: 
+        - -28.027845
+        - 38.329134
+        - 0
+    address: Azores, Portugal
+    id: p1
+  Atlantic/Madeira: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              DependentLocality: 
+                DependentLocalityName: Madeirã
+              LocalityName: Oleiros
+            SubAdministrativeAreaName: Castelo Branco
+        CountryNameCode: PT
+    Point: 
+      coordinates: 
+        - -8.042838
+        - 39.946374
+        - 0
+    address: Madeirã, Oleiros, Portugal
+    id: p1
+  Europe/Lisbon: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Lisboa
+            SubAdministrativeAreaName: Lisboa
+        CountryNameCode: PT
+    Point: 
+      coordinates: 
+        - -9.135517
+        - 38.707163
+        - 0
+    address: Lisboa, Portugal
+    id: p1
+pw: 
+  Pacific/Palau: 
+    AddressDetails: 
+      Accuracy: 2
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Palau
+        CountryNameCode: PW
+    Point: 
+      coordinates: 
+        - 134.438049
+        - 7.354855
+        - 0
+    address: Palau, Palau
+    id: p1
+py: 
+  America/Asuncion: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: PY
+        Locality: 
+          LocalityName: Asunción
+    Point: 
+      coordinates: 
+        - -57.636231
+        - -25.300494
+        - 0
+    address: Asunción, Paraguay
+    id: p1
+qa: 
+  Asia/Qatar: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: QA
+    Point: 
+      coordinates: 
+        - 51.183884
+        - 25.354826
+        - 0
+    address: Qatar
+    id: p1
+re: 
+  Indian/Reunion: 
+    AddressDetails: 
+      Accuracy: 6
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Poitou-Charentes
+          SubAdministrativeArea: 
+            Locality: 
+              DependentLocality: 
+                DependentLocalityName: Le Parc
+                PostalCode: 
+                  PostalCodeNumber: 17410
+                Thoroughfare: 
+                  ThoroughfareName: Rue de la Réunion
+              LocalityName: Saint-Martin-de-Ré
+            SubAdministrativeAreaName: Charente-Maritime
+        CountryNameCode: FR
+    Point: 
+      coordinates: 
+        - -1.354181
+        - 46.199662
+        - 0
+    address: Rue de la Réunion, 17410 Le Parc, Saint-Martin-de-Ré, France
+    id: p1
+ro: 
+  Europe/Bucharest: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Bucure ti
+            SubAdministrativeAreaName: Bucuresti
+        CountryNameCode: RO
+    Point: 
+      coordinates: 
+        - 26.097879
+        - 44.447924
+        - 0
+    address: Bucure ti, Romania
+    id: p1
+rs: 
+  Europe/Belgrade: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Central Serbia
+          Locality: 
+            LocalityName: Beograd
+        CountryNameCode: RS
+    Point: 
+      coordinates: 
+        - 20.465601
+        - 44.802416
+        - 0
+    address: Beograd, Central Serbia, Serbia
+    id: p1
+ru: 
+  Asia/Anadyr: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Chukotskiy avtonomnyy okrug
+          Locality: 
+            LocalityName: "             "
+        CountryNameCode: RU
+    Point: 
+      coordinates: 
+        - 177.477371
+        - 64.736656
+        - 0
+    address: "Russia, Chukotskiy avtonomnyy okrug,              "
+    id: p1
+  Asia/Irkutsk: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Irkutskaya oblast'
+          Locality: 
+            LocalityName: gorod Irkutsk
+        CountryNameCode: RU
+    Point: 
+      coordinates: 
+        - 104.308639
+        - 52.275261
+        - 0
+    address: Russia, Irkutskaya oblast', gorod Irkutsk
+    id: p1
+  Asia/Kamchatka: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Krasnoyarskiy kray
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: "                "
+            SubAdministrativeAreaName: Novoselovskiy rayon
+        CountryNameCode: RU
+    Point: 
+      coordinates: 
+        - 90.861458
+        - 55.123798
+        - 0
+    address: "Russia, Krasnoyarskiy kray,                 "
+    id: p1
+  Asia/Krasnoyarsk: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Krasnoyarskiy kray
+          Locality: 
+            LocalityName: gorod Krasnoyarsk
+        CountryNameCode: RU
+    Point: 
+      coordinates: 
+        - 92.88559
+        - 56.001251
+        - 0
+    address: Russia, Krasnoyarskiy kray, gorod Krasnoyarsk
+    id: p1
+  Asia/Magadan: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Magadanskaya oblast'
+          Locality: 
+            LocalityName: gorod Magadan
+        CountryNameCode: RU
+    Point: 
+      coordinates: 
+        - 150.81308
+        - 59.55632
+        - 0
+    address: Russia, Magadanskaya oblast', gorod Magadan
+    id: p1
+  Asia/Novosibirsk: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Novosibirskaya oblast'
+          Locality: 
+            LocalityName: gorod Novosibirsk
+        CountryNameCode: RU
+    Point: 
+      coordinates: 
+        - 82.927818
+        - 55.03923
+        - 0
+    address: Russia, Novosibirskaya oblast', gorod Novosibirsk
+    id: p1
+  Asia/Omsk: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Omskaya oblast'
+          Locality: 
+            LocalityName: gorod Omsk
+        CountryNameCode: RU
+    Point: 
+      coordinates: 
+        - 73.393753
+        - 54.970902
+        - 0
+    address: Russia, Omskaya oblast', gorod Omsk
+    id: p1
+  Asia/Sakhalin: 
+    AddressDetails: 
+      Accuracy: 2
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: "                   "
+        CountryNameCode: RU
+    Point: 
+      coordinates: 
+        - 148.85975
+        - 49.0413
+        - 0
+    address: "Russia,                    "
+    id: p1
+  Asia/Vladivostok: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Primorskiy kray
+          Locality: 
+            LocalityName: gorod Vladivostok
+        CountryNameCode: RU
+    Point: 
+      coordinates: 
+        - 131.923828
+        - 43.130691
+        - 0
+    address: Russia, Primorskiy kray, gorod Vladivostok
+    id: p1
+  Asia/Yakutsk: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Respublika Sakha (Yakutiya)
+          Locality: 
+            LocalityName: gorod Yakutsk
+        CountryNameCode: RU
+    Point: 
+      coordinates: 
+        - 129.746399
+        - 62.039261
+        - 0
+    address: Russia, Respublika Sakha (Yakutiya), gorod Yakutsk
+    id: p1
+  Asia/Yekaterinburg: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Sverdlovskaya oblast'
+          Locality: 
+            LocalityName: gorod Ekaterinburg
+        CountryNameCode: RU
+    Point: 
+      coordinates: 
+        - 60.596842
+        - 56.837814
+        - 0
+    address: Russia, Sverdlovskaya oblast', gorod Ekaterinburg
+    id: p1
+  Europe/Kaliningrad: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Kaliningradskaya oblast'
+          Locality: 
+            LocalityName: gorod Kaliningrad
+        CountryNameCode: RU
+    Point: 
+      coordinates: 
+        - 20.5068
+        - 54.711788
+        - 0
+    address: Russia, Kaliningradskaya oblast', gorod Kaliningrad
+    id: p1
+  Europe/Moscow: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: gorod Moskva
+          Locality: 
+            LocalityName: gorod Moskva
+        CountryNameCode: RU
+    Point: 
+      coordinates: 
+        - 37.617633
+        - 55.755786
+        - 0
+    address: Russia, gorod Moskva, gorod Moskva
+    id: p1
+  Europe/Samara: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Samarskaya oblast'
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: gorod Samara
+            SubAdministrativeAreaName: Volzhskiy rayon
+        CountryNameCode: RU
+    Point: 
+      coordinates: 
+        - 50.159618
+        - 53.20216
+        - 0
+    address: Russia, Samarskaya oblast', gorod Samara
+    id: p1
+  Europe/Volgograd: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Volgogradskaya oblast'
+          Locality: 
+            LocalityName: gorod Volgograd
+        CountryNameCode: RU
+    Point: 
+      coordinates: 
+        - 44.504639
+        - 48.718079
+        - 0
+    address: Russia, Volgogradskaya oblast', gorod Volgograd
+    id: p1
+rw: 
+  Africa/Kigali: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: RW
+        Locality: 
+          LocalityName: Kigali
+    Point: 
+      coordinates: 
+        - 30.06188
+        - -1.94413
+        - 0
+    address: Kigali, Rwanda
+    id: p1
+sa: 
+  Asia/Riyadh: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: SA
+        Locality: 
+          LocalityName: Ar Riyad
+    Point: 
+      coordinates: 
+        - 46.6977
+        - 24.6748
+        - 0
+    address: Ar Riyad, Saudi Arabia
+    id: p1
+sb: 
+  Pacific/Guadalcanal: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: SB
+    Point: 
+      coordinates: 
+        - 160.208984
+        - -9.595812
+        - 0
+    address: Guadalcanal, Solomon Islands
+    id: p1
+sc: 
+  Indian/Mahe: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: SC
+    Point: 
+      coordinates: 
+        - 55.450302
+        - -4.684438
+        - 0
+    address: Mahé, Seychelles
+    id: p1
+sd: 
+  Africa/Khartoum: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: SD
+        Locality: 
+          LocalityName: Khartoum
+    Point: 
+      coordinates: 
+        - 32.53627
+        - 15.59317
+        - 0
+    address: Khartoum, Sudan
+    id: p1
+se: 
+  Europe/Stockholm: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Stockholm
+            SubAdministrativeAreaName: Stockholms Län
+        CountryNameCode: SE
+    Point: 
+      coordinates: 
+        - 18.064488
+        - 59.332788
+        - 0
+    address: Stockholm, Sweden
+    id: p1
+sg: 
+  Asia/Singapore: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Singapore
+          Locality: 
+            LocalityName: Singapore
+        CountryNameCode: SG
+    Point: 
+      coordinates: 
+        - 103.849962
+        - 1.289407
+        - 0
+    address: Singapore, Singapore, Singapore
+    id: p1
+sh: 
+  Atlantic/St_Helena: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: SH
+    Point: 
+      coordinates: 
+        - -5.6723
+        - -15.93515
+        - 0
+    address: Saint Helena, St. Helena
+    id: p1
+si: 
+  Europe/Ljubljana: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Ljubljana
+            SubAdministrativeAreaName: Ljubljana
+        CountryNameCode: SI
+    Point: 
+      coordinates: 
+        - 14.50443
+        - 46.05456
+        - 0
+    address: Ljubljana, Slovenia
+    id: p1
+sj: 
+  Arctic/Longyearbyen: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: SJ
+        Locality: 
+          LocalityName: Longyearbyen
+    Point: 
+      coordinates: 
+        - 15.64875
+        - 78.21859
+        - 0
+    address: Longyearbyen, Svalbard
+    id: p1
+  Atlantic/Jan_Mayen: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: SJ
+        Locality: 
+          LocalityName: Jan Mayen
+    Point: 
+      coordinates: 
+        - -8.641191
+        - 70.958447
+        - 0
+    address: Jan Mayen, Svalbard
+    id: p1
+sk: 
+  Europe/Bratislava: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Bratislavský kraj
+          Locality: 
+            LocalityName: Bratislava
+        CountryNameCode: SK
+    Point: 
+      coordinates: 
+        - 17.10731
+        - 48.148376
+        - 0
+    address: Bratislava, Bratislavský kraj, Slovakia
+    id: p1
+sl: 
+  Africa/Freetown: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: SL
+        Locality: 
+          LocalityName: Freetown
+    Point: 
+      coordinates: 
+        - -13.26589
+        - 8.46966
+        - 0
+    address: Freetown, Sierra Leone
+    id: p1
+sm: 
+  Europe/San_Marino: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: SM
+        Locality: 
+          LocalityName: San Marino
+    Point: 
+      coordinates: 
+        - 12.448626
+        - 43.932156
+        - 0
+    address: San Marino, San Marino
+    id: p1
+sn: 
+  Africa/Dakar: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: SN
+        Locality: 
+          LocalityName: Dakar
+    Point: 
+      coordinates: 
+        - -17.43978
+        - 14.74208
+        - 0
+    address: Dakar, Senegal
+    id: p1
+so: 
+  Africa/Mogadishu: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Mogadishu
+            SubAdministrativeAreaName: Banaadir
+        CountryNameCode: SO
+    Point: 
+      coordinates: 
+        - 45.3289
+        - 2.0835
+        - 0
+    address: Mogadishu, Somalia
+    id: p1
+sr: 
+  America/Paramaribo: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Paramaribo
+          Locality: 
+            LocalityName: Paramaribo
+        CountryNameCode: SR
+    Point: 
+      coordinates: 
+        - -55.16788
+        - 5.823201
+        - 0
+    address: Paramaribo, Paramaribo, Suriname
+    id: p1
+st: 
+  Africa/Sao_Tome: 
+    AddressDetails: 
+      Accuracy: 2
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: São Tomé
+        CountryNameCode: ST
+    Point: 
+      coordinates: 
+        - 6.607102
+        - 0.20618
+        - 0
+    address: São Tomé, Sao Tome and Principe
+    id: p1
+sv: 
+  America/El_Salvador: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: SV
+        Locality: 
+          LocalityName: El Salvador
+    Point: 
+      coordinates: 
+        - -89.229053
+        - 13.711333
+        - 0
+    address: El Salvador, El Salvador
+    id: p1
+sy: 
+  Asia/Damascus: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: SY
+        Locality: 
+          LocalityName: Damascus
+    Point: 
+      coordinates: 
+        - 36.2939
+        - 33.5158
+        - 0
+    address: Damascus, Syria
+    id: p1
+sz: 
+  Africa/Mbabane: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: SZ
+        Locality: 
+          LocalityName: Mbabane
+    Point: 
+      coordinates: 
+        - 31.141
+        - -26.3186
+        - 0
+    address: Mbabane, Swaziland
+    id: p1
+tc: 
+  America/Grand_Turk: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: TC
+        Locality: 
+          LocalityName: Cockburn Town
+    Point: 
+      coordinates: 
+        - -71.136298
+        - 21.460776
+        - 0
+    address: Cockburn Town, Turks and Caicos
+    id: p1
+td: 
+  Africa/Ndjamena: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Ndjamena
+            SubAdministrativeAreaName: Chari-Baguirmi
+        CountryNameCode: TD
+    Point: 
+      coordinates: 
+        - 15.0355
+        - 12.1121
+        - 0
+    address: Ndjamena, Chad
+    id: p1
+tf: 
+  Indian/Kerguelen: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Bretagne
+          SubAdministrativeArea: 
+            Locality: 
+              DependentLocality: 
+                DependentLocalityName: Kerguelen
+              LocalityName: Bangor
+            SubAdministrativeAreaName: Morbihan
+        CountryNameCode: FR
+    Point: 
+      coordinates: 
+        - -3.198401
+        - 47.304608
+        - 0
+    address: Kerguelen, Bangor, France
+    id: p1
+tg: 
+  Africa/Lome: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: TG
+        Locality: 
+          LocalityName: Lomé
+    Point: 
+      coordinates: 
+        - 1.2255
+        - 6.1228
+        - 0
+    address: Lomé, Togo
+    id: p1
+th: 
+  Asia/Bangkok: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Krung Thep Mahanakhon
+          Locality: 
+            LocalityName: Krung Thep
+        CountryNameCode: TH
+    Point: 
+      coordinates: 
+        - 100.521004
+        - 13.73078
+        - 0
+    address: Krung Thep, Krung Thep Mahanakhon, Thailand
+    id: p1
+tj: 
+  Asia/Dushanbe: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: TJ
+        Locality: 
+          LocalityName: Dushanbe
+    Point: 
+      coordinates: 
+        - 68.7738
+        - 38.5737
+        - 0
+    address: Dushanbe, Tajikistan
+    id: p1
+tk: 
+  Pacific/Fakaofo: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: TK
+    Point: 
+      coordinates: 
+        - -171.228464
+        - -9.38426
+        - 0
+    address: Fakaofo, Tokelau
+    id: p1
+tl: 
+  Asia/Dili: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: TL
+        Locality: 
+          LocalityName: Dili
+    Point: 
+      coordinates: 
+        - 125.588
+        - -8.56619
+        - 0
+    address: Dili, Timor-Leste
+    id: p1
+tm: 
+  Asia/Ashgabat: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: TM
+        Locality: 
+          LocalityName: Ashgabat
+    Point: 
+      coordinates: 
+        - 58.3794
+        - 37.9509
+        - 0
+    address: Ashgabat, Turkmenistan
+    id: p1
+tn: 
+  Africa/Tunis: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: TN
+        Locality: 
+          LocalityName: Tunis
+    Point: 
+      coordinates: 
+        - 10.18872
+        - 36.80027
+        - 0
+    address: Tunis, Tunisia
+    id: p1
+to: 
+  Pacific/Tongatapu: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: TO
+    Point: 
+      coordinates: 
+        - -175.195999
+        - -21.167937
+        - 0
+    address: Tongatapu Island, Tonga
+    id: p1
+tr: 
+  Europe/Istanbul: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: " stanbul"
+          Locality: 
+            LocalityName: Istanbul
+        CountryNameCode: TR
+    Point: 
+      coordinates: 
+        - 28.984895
+        - 41.036501
+        - 0
+    address: Istanbul,  stanbul, Turkey
+    id: p1
+tt: 
+  America/Port_of_Spain: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: TT
+        Locality: 
+          LocalityName: Port-of-Spain
+    Point: 
+      coordinates: 
+        - -61.478912
+        - 10.659567
+        - 0
+    address: Port-of-Spain, Trinidad and Tobago
+    id: p1
+tv: 
+  Pacific/Funafuti: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: TV
+        Locality: 
+          LocalityName: Funafuti
+    Point: 
+      coordinates: 
+        - 179.1923
+        - -8.51359
+        - 0
+    address: Funafuti, Tuvalu
+    id: p1
+tw: 
+  Asia/Taipei: 
+    AddressDetails: 
+      Accuracy: 3
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            SubAdministrativeAreaName: "   "
+        CountryNameCode: TW
+    Point: 
+      coordinates: 
+        - 121.561498
+        - 25.08532
+        - 0
+    id: p1
+tz: 
+  Africa/Dar_es_Salaam: 
+    AddressDetails: 
+      Accuracy: 2
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Dar-es-Salaam
+        CountryNameCode: TZ
+    Point: 
+      coordinates: 
+        - 39.47339
+        - -6.807444
+        - 0
+    address: Dar-es-Salaam, Tanzania
+    id: p1
+ua: 
+  Europe/Kiev: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Kyyivs'ka
+          Locality: 
+            LocalityName: Kyiv
+        CountryNameCode: UA
+    Point: 
+      coordinates: 
+        - 30.503828
+        - 50.453629
+        - 0
+    address: Kyiv, Kyyivs'ka, Ukraine
+    id: p1
+  Europe/Simferopol: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Avtonomna Respublika
+          Locality: 
+            LocalityName: Simferopol
+        CountryNameCode: UA
+    Point: 
+      coordinates: 
+        - 34.103821
+        - 44.961639
+        - 0
+    address: Simferopol, Avtonomna Respublika, Ukraine
+    id: p1
+  Europe/Uzhgorod: 
+    AddressDetails: 
+      Accuracy: 3
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Zakarpats'ka
+          SubAdministrativeArea: 
+            Locality: 
+              DependentLocality: 
+                DependentLocalityName: Uzhhorod
+            SubAdministrativeAreaName: "       "
+        CountryNameCode: UA
+    Point: 
+      coordinates: 
+        - 22.29396
+        - 48.62403
+        - 0
+    address: Uzhhorod, Zakarpats'ka, Ukraine
+    id: p1
+  Europe/Zaporozhye: 
+    AddressDetails: 
+      Accuracy: 3
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Zaporiz'ka
+          SubAdministrativeArea: 
+            Locality: 
+              DependentLocality: 
+                DependentLocalityName: Zaporizhzhya
+            SubAdministrativeAreaName: "         "
+        CountryNameCode: UA
+    Point: 
+      coordinates: 
+        - 35.16593
+        - 47.840832
+        - 0
+    address: Zaporizhzhya, Zaporiz'ka, Ukraine
+    id: p1
+ug: 
+  Africa/Kampala: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: UG
+        Locality: 
+          LocalityName: Kampala
+    Point: 
+      coordinates: 
+        - 32.57137
+        - 0.3133
+        - 0
+    address: Kampala, Uganda
+    id: p1
+uk: 
+  Europe/London: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: England
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: London
+            SubAdministrativeAreaName: Greater London
+        CountryNameCode: GB
+    Point: 
+      coordinates: 
+        - -0.126236
+        - 51.500152
+        - 0
+    address: London, Greater London, UK
+    id: p1
+um: 
+  Pacific/Johnston: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: UM
+    Point: 
+      coordinates: 
+        - -169.534241
+        - 16.728786
+        - 0
+    address: Johnston Atoll, United States Minor Outlying Islands
+    id: p1
+  Pacific/Midway: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: UM
+    Point: 
+      coordinates: 
+        - -162.591378
+        - 6.402606
+        - 0
+    address: United States Minor Outlying Islands
+    id: p1
+  Pacific/Wake: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: UM
+    Point: 
+      coordinates: 
+        - 166.642166
+        - 19.279806
+        - 0
+    address: Wake Island Airfield, United States Minor Outlying Islands
+    id: p1
+us: 
+  America/Adak: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: AK
+          Locality: 
+            LocalityName: Adak
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -176.621558
+        - 51.902598
+        - 0
+    address: Adak, AK, USA
+    id: p1
+  America/Anchorage: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: AK
+          Locality: 
+            LocalityName: Anchorage
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -149.899597
+        - 61.216583
+        - 0
+    address: Anchorage, AK, USA
+    id: p1
+  America/Boise: 
+    AddressDetails: 
+      Accuracy: 3
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: ID
+          SubAdministrativeArea: 
+            Locality: 
+              DependentLocality: 
+                DependentLocalityName: Boise
+            SubAdministrativeAreaName: Ada
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -116.212539
+        - 43.602071
+        - 0
+    address: Boise, ID, USA
+    id: p1
+  America/Chicago: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: IL
+          Locality: 
+            LocalityName: Chicago
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -87.624333
+        - 41.879535
+        - 0
+    address: Chicago, IL, USA
+    id: p1
+  America/Denver: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: CO
+          Locality: 
+            LocalityName: Denver
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -104.988123
+        - 39.755092
+        - 0
+    address: Denver, CO, USA
+    id: p1
+  America/Detroit: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: MI
+          Locality: 
+            LocalityName: Detroit
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -83.045913
+        - 42.330165
+        - 0
+    address: Detroit, MI, USA
+    id: p1
+  America/Indiana/Indianapolis: 
+    AddressDetails: 
+      Accuracy: 3
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: IN
+          SubAdministrativeArea: 
+            Locality: 
+              DependentLocality: 
+                DependentLocalityName: Indianapolis
+            SubAdministrativeAreaName: Marion
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -86.156255
+        - 39.767016
+        - 0
+    address: Indianapolis, IN, USA
+    id: p1
+  America/Indiana/Knox: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: IN
+          Locality: 
+            LocalityName: Knox
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -86.620675
+        - 41.28806
+        - 0
+    address: Knox, IN, USA
+    id: p1
+  America/Indiana/Marengo: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: IN
+          Locality: 
+            LocalityName: Marengo
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -86.343437
+        - 38.369338
+        - 0
+    address: Marengo, IN, USA
+    id: p1
+  America/Indiana/Petersburg: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: IN
+          Locality: 
+            LocalityName: Petersburg
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -87.280245
+        - 38.491124
+        - 0
+    address: Petersburg, IN, USA
+    id: p1
+  America/Indiana/Tell_City: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: IN
+          Locality: 
+            LocalityName: Tell City
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -86.757945
+        - 37.955279
+        - 0
+    address: Tell City, IN, USA
+    id: p1
+  America/Indiana/Vevay: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: IN
+          Locality: 
+            LocalityName: Vevay
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -85.078416
+        - 38.740812
+        - 0
+    address: Vevay, IN, USA
+    id: p1
+  America/Indiana/Vincennes: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: IN
+          Locality: 
+            LocalityName: Vincennes
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -87.509072
+        - 38.677718
+        - 0
+    address: Vincennes, IN, USA
+    id: p1
+  America/Indiana/Winamac: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: IN
+          Locality: 
+            LocalityName: Winamac
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -86.603979
+        - 41.055365
+        - 0
+    address: Winamac, IN, USA
+    id: p1
+  America/Juneau: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: AK
+          Locality: 
+            LocalityName: Juneau
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -134.57205
+        - 58.363739
+        - 0
+    address: Juneau, AK, USA
+    id: p1
+  America/Kentucky/Louisville: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: KY
+          Locality: 
+            LocalityName: Louisville
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -85.75154
+        - 38.256065
+        - 0
+    address: Louisville, KY, USA
+    id: p1
+  America/Kentucky/Monticello: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: KY
+          Locality: 
+            LocalityName: Monticello
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -84.84262
+        - 36.836689
+        - 0
+    address: Monticello, KY, USA
+    id: p1
+  America/Los_Angeles: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: CA
+          Locality: 
+            LocalityName: Los Angeles
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -118.243425
+        - 34.052187
+        - 0
+    address: Los Angeles, CA, USA
+    id: p1
+  America/Menominee: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: MI
+          Locality: 
+            LocalityName: Menominee
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -87.622915
+        - 45.121655
+        - 0
+    address: Menominee, MI, USA
+    id: p1
+  America/New_York: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: NY
+          Locality: 
+            LocalityName: New York
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -73.985506
+        - 40.757929
+        - 0
+    address: New York, NY, USA
+    id: p1
+  America/Nome: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: AK
+          Locality: 
+            LocalityName: Nome
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -165.406729
+        - 64.502118
+        - 0
+    address: Nome, AK, USA
+    id: p1
+  America/North_Dakota/Center: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: ND
+          Locality: 
+            LocalityName: Center
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -101.296818
+        - 47.111167
+        - 0
+    address: Center, ND, USA
+    id: p1
+  America/North_Dakota/New_Salem: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: ND
+          Locality: 
+            LocalityName: New Salem
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -101.417598
+        - 46.847486
+        - 0
+    address: New Salem, ND, USA
+    id: p1
+  America/Phoenix: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: AZ
+          Locality: 
+            LocalityName: Phoenix
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -112.073821
+        - 33.448263
+        - 0
+    address: Phoenix, AZ, USA
+    id: p1
+  America/Shiprock: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: NM
+          Locality: 
+            LocalityName: Shiprock
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -108.68979
+        - 36.793915
+        - 0
+    address: Shiprock, NM, USA
+    id: p1
+  America/Yakutat: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: AK
+          Locality: 
+            LocalityName: Yakutat
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -139.638872
+        - 59.563678
+        - 0
+    address: Yakutat, AK, USA
+    id: p1
+  Pacific/Honolulu: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: HI
+          Locality: 
+            LocalityName: Honolulu
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -157.821856
+        - 21.291982
+        - 0
+    address: Honolulu, HI, USA
+    id: p1
+uy: 
+  America/Montevideo: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: UY
+        Locality: 
+          LocalityName: Montevideo
+    Point: 
+      coordinates: 
+        - -56.067451
+        - -34.894119
+        - 0
+    address: Montevideo, Uruguay
+    id: p1
+uz: 
+  Asia/Samarkand: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Jizzax
+          Locality: 
+            LocalityName: Samarkand
+        CountryNameCode: UZ
+    Point: 
+      coordinates: 
+        - 67.971298
+        - 40.425671
+        - 0
+    address: Samarkand, Jizzax, Uzbekistan
+    id: p1
+  Asia/Tashkent: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: UZ
+        Locality: 
+          LocalityName: Taskent
+    Point: 
+      coordinates: 
+        - 69.2481
+        - 41.3193
+        - 0
+    address: Taskent, Uzbekistan
+    id: p1
+va: 
+  Europe/Vatican: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: VA
+        Locality: 
+          LocalityName: Città del Vaticano
+    Point: 
+      coordinates: 
+        - 12.458131
+        - 41.902257
+        - 0
+    address: Città del Vaticano, Vatican
+    id: p1
+vc: 
+  America/St_Vincent: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: VC
+    Point: 
+      coordinates: 
+        - -61.382658
+        - 12.535838
+        - 0
+    address: Petit Saint Vincent, St. Vincent and the Grenadines
+    id: p1
+ve: 
+  America/Caracas: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: Miranda
+          Locality: 
+            LocalityName: Caracas
+        CountryNameCode: VE
+    Point: 
+      coordinates: 
+        - -66.898277
+        - 10.49605
+        - 0
+    address: Caracas, Miranda, Venezuela
+    id: p1
+vg: 
+  America/Tortola: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: VG
+    Point: 
+      coordinates: 
+        - -64.635487
+        - 18.426819
+        - 0
+    address: Tortola, British Virgin Islands
+    id: p1
+vi: 
+  America/St_Thomas: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: VI
+    Point: 
+      coordinates: 
+        - -64.935932
+        - 18.350721
+        - 0
+    address: Saint Thomas, Virgin Islands
+    id: p1
+vn: 
+  Asia/Saigon: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Saigon
+            SubAdministrativeAreaName: Ho Chi Minh
+        CountryNameCode: VN
+    Point: 
+      coordinates: 
+        - 106.6534
+        - 10.758
+        - 0
+    address: Saigon, Viet Nam
+    id: p1
+wf: 
+  Pacific/Wallis: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          AdministrativeAreaName: TX
+          Locality: 
+            LocalityName: Wallis
+        CountryNameCode: US
+    Point: 
+      coordinates: 
+        - -96.065041
+        - 29.631426
+        - 0
+    address: Wallis, TX, USA
+    id: p1
+ws: 
+  Pacific/Apia: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: WS
+        Locality: 
+          LocalityName: Apia
+    Point: 
+      coordinates: 
+        - -171.751801
+        - -13.83142
+        - 0
+    address: Apia, Samoa
+    id: p1
+ye: 
+  Asia/Aden: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        CountryNameCode: YE
+        Locality: 
+          LocalityName: Aden
+    Point: 
+      coordinates: 
+        - 44.9607
+        - 12.8364
+        - 0
+    address: Aden, Yemen
+    id: p1
+yt: 
+  Indian/Mayotte: 
+    AddressDetails: 
+      Accuracy: 1
+      Country: 
+        CountryNameCode: YT
+    Point: 
+      coordinates: 
+        - 45.166244
+        - -12.8275
+        - 0
+    address: Mayotte
+    id: p1
+za: 
+  Africa/Johannesburg: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Johannesburg
+            SubAdministrativeAreaName: Gauteng
+        CountryNameCode: ZA
+    Point: 
+      coordinates: 
+        - 28.0339
+        - -26.1951
+        - 0
+    address: Johannesburg, South Africa
+    id: p1
+zm: 
+  Africa/Lusaka: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Lusaka
+            SubAdministrativeAreaName: Lusaka
+        CountryNameCode: ZM
+    Point: 
+      coordinates: 
+        - 28.2809
+        - -15.4145
+        - 0
+    address: Lusaka, Zambia
+    id: p1
+zw: 
+  Africa/Harare: 
+    AddressDetails: 
+      Accuracy: 4
+      Country: 
+        AdministrativeArea: 
+          SubAdministrativeArea: 
+            Locality: 
+              LocalityName: Harare
+            SubAdministrativeAreaName: Mashonaland East
+        CountryNameCode: ZW
+    Point: 
+      coordinates: 
+        - 31.0496
+        - -17.8227
+        - 0
+    address: Harare, Zimbabwe
+    id: p1

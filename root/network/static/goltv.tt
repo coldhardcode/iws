@@ -1,0 +1,21 @@
+<div class="network">
+<h1><a href="[% c.uri_for( c.controller('Network').action_for('list') ) %]">Networks</a> &raquo; Fox Soccer Channel</h1>
+<p class="desc">
+ <a href="http://www.goltv.tv/en_index.php"><img src="[% static('images/networks/goltv_thumb.jpg') %]" align="left"/></a>
+  Gol TV has the great title of the first United States television network to be
+  dedicated fully to soccer, 24 hours a day and 7 days a week.  Gol TV shows
+  soccer from all through the world, including its popular "Sabor a Gol" feature
+  that shows goals from around the world.
+  <br/>
+  Gol TV is currently available in the United States through DirectTV's Sports
+  package, as well as the Spanish-language DirecTV Para Todos package.
+ </p>
+
+<h4>Useful Links</h4>
+<p>
+ <ul>
+  <li><a href="http://www.goltv.tv/en_index.php">Gol TV Official English Website</a></li>
+ </ul>
+</p>
+
+</div>

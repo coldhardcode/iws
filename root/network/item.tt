@@ -1,0 +1,35 @@
+[%
+
+USE Dumper;
+
+DEFAULT network = rest.network;
+
+TRY;
+    PROCESS "network/static/${network.token_name}.tt";
+CATCH;
+    %]<h1>[% network.display_name %]</h1>[%
+END;
+%]<h2>[% loc('Games on [_1]', network.display_name) %]</h2>[%
+PROCESS "game/list.tt",
+    list = network.games(
+        {
+            '-and' => [
+                { 'me.start_time' => { '>'  => now } }, 
+                #{ 'me.start_time' => { '<=' => now.clone.add( days => 5 ) } }, 
+            ],
+        },
+        {
+            rows     => 10,
+            prefetch => [
+                {
+                    'broadcasts' => [
+                        'network',
+                        { 'game' => [ 'home', 'visitor' ] }
+                    ]
+                }
+            ]
+         }
+    );
+
+%]
+<div id='vu_ytplayer_vjVQa1PpcFM4nILBMgrF1ztWiWnpT5COk2bI4v8F788='><a href='http://www.youtube.com/browse'>Watch the latest videos on YouTube.com</a></div><script type='text/javascript' src='http://www.youtube.com/cp/vjVQa1PpcFM4nILBMgrF1ztWiWnpT5COk2bI4v8F788='></script>

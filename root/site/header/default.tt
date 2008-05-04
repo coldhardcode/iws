@@ -1,0 +1,6 @@
+[% # Include the navigation
+IF page.nav && page.nav != 'none';
+    PROCESS "site/nav/${page.nav}.tt";
+END;
+~%]
+<div id="masthead">[% IF page.name %]<h1>&nbsp;[% page.name %]</h1>[% END %]</div>

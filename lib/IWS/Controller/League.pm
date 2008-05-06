@@ -2,7 +2,8 @@ package IWS::Controller::League;
 
 use strict;
 use warnings;
-use base 'Catalyst::Controller::REST';
+
+use base 'Catalyst::Controller::REST::DBIC::Item';
 
 use DateTime;
 use DateTime::Format::MySQL;
@@ -14,35 +15,27 @@ __PACKAGE__->config(
         'text/xml'  => [ 'View', 'TT' ],
         'application/x-www-form-urlencoded' => 'JSON',
     },
+    'class'    => 'Schema::League',
+    'item_key' => 'token_name',
+    'serialize_method' => 'serialize',
+    'browser_serialize' => 0
 );
 
 =head1 NAME
 
-IWS::Controller::League - Catalyst Controller
+IWS::Controller::League - Handle the various leagues
 
 =head1 DESCRIPTION
 
-Catalyst Controller.
+This is somewhat of a loosely defined controller, since a league is any playing
+series.  This means it includes various championships that mix clubs and other
+friendly series.
 
 =head1 METHODS
 
 =cut
 
-sub base : Chained('.') PathPart('') CaptureArgs(0) { }
-
-sub list : Chained('base') PathPart('') Args(0) ActionClass('REST') { }
-
-sub list_GET {
-    my ( $self, $c ) = @_;
-
-    my $rs = $c->model('Schema::League')->search();
-
-    $self->status_ok( $c,
-        entity => {
-            leagues => $rs->serialize
-        }
-    );
-}
+sub rest_base : Chained('.') PathPart('') CaptureArgs(0) { }
 
 =head2 list_POST
 
@@ -76,7 +69,7 @@ sub list_POST {
     if ( $row ) {
         $self->status_created( $c,
             location => $c->uri_for(
-                $c->controller->action_for('item'), [ '-', $row->token_name ]
+                $c->controller->action_for('item'), [ $row->token_name ]
             )->as_string,
             entity => $row->serialize
         );
@@ -88,26 +81,19 @@ sub list_POST {
     }
 }
 
-sub item_base : Chained('base') PathPart('') CaptureArgs(2) {
-    my ( $self, $c, $is_id, $ident ) = @_;
-    my $filter = {};
-    if ( $is_id eq '-' ) {
-        $filter->{'me.token_name'} = $ident;
-    } else {
-        $filter->{'me.pk1'} = int($ident);
-    }
-    $c->stash->{rs}->{item} = $c->model("Schema::League")->search($filter);
-}
+=head1 item_base
 
-sub item : Chained('item_base') PathPart('') Args(0) ActionClass('REST') {
-}
+We override the default item_base so that we can handle prefetching and only
+show games that haven't finished
 
-sub item_GET {
-    my ( $self, $c ) = @_;
+=cut
 
-    my $row = $c->stash->{rs}->{item}->search(
+sub item_base : Chained('rest_base') PathPart('') CaptureArgs(1) {
+    my ( $self, $c, $identifier ) = @_;
+
+    $c->stash->{rest}->{item} = $self->get_item($c, $identifier)->search(
         {
-            'games.start_time' => { '>=', $c->stash->{now} }
+            'games.end_time' => { '>=', $c->stash->{now} }
         },
         {
             prefetch => {
@@ -119,31 +105,11 @@ sub item_GET {
             order_by => [ 'games.start_time ASC' ]
         }
     )->first;
-
-    # FIXME: No games, but DBIC does a JOIN instead of LEFT JOIN on team
-    if ( not $row and $c->stash->{rs}->{item}->count > 0 ) {
-        $row = $c->stash->{rs}->{item}->first;
-    }
-
-    if ( $row ) {
-        $c->log->debug("Fetched row: " . $row->pk1);
-        $c->stash->{league} = $row;
-        $self->status_ok( $c,
-            entity => { league => $row }
-        );
-    } else {
-        $self->status_bad_request( $c,
-            message =>
-                $c->localize(qq{Unable to find league, please check input})
-        );
-    }
 }
-
-
 
 =head1 AUTHOR
 
-J. Shirley,,,
+J. Shirley C< <<jshirley@coldhardcode.com>> >
 
 =head1 LICENSE
 

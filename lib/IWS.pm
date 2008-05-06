@@ -5,6 +5,8 @@ use warnings;
 
 use Catalyst::Runtime '5.70';
 
+use Catalyst::Request::REST::ForBrowsers;
+
 # Custom Serializers
 use Catalyst::Action::REST::Deserialize::Form;
 use Catalyst::Action::REST::Serialize::Form;

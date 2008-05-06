@@ -11,7 +11,7 @@ use Carp;
 
 __PACKAGE__->mk_accessors(qw/client server/);
 
-my $SECRET = "Abracadabra";
+my $SECRET = "SshSecret";
 
 sub new {
     my $class   = shift;

@@ -3,7 +3,7 @@ package IWS::Controller::Game;
 use strict;
 use warnings;
 
-use base 'Catalyst::Controller::REST::DBIC::Item';
+use base 'Catalyst::Controller::REST';
 
 use DateTime;
 use DateTime::Format::RSS;
@@ -103,6 +103,13 @@ sub list_POST {
         { token_name => [ $data->{home}, $data->{visitor} ] }
     );
 
+    # Bogus teams.  Bogus!
+    if ( $teams->count != 2 ) {
+        return $self->status_bad_request( $c,
+            message => $c->localize('Unable to create game, invalid teams')
+        );
+    }
+
     my $league;
 
     if ( $data->{league} ) {
@@ -113,13 +120,6 @@ sub list_POST {
             if $c->debug;
     }
     
-    # Bogus teams.  Bogus!
-    if ( $teams->count != 2 ) {
-        return $self->status_bad_request( $c,
-            message => $c->localize('Unable to create game, invalid teams')
-        );
-    }
-
     my $start_time = $dt_parser->parse_datetime($data->{start_time});
     my $end_time   = $dt_parser->parse_datetime($data->{end_time});
 

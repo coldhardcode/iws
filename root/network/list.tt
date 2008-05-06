@@ -1,5 +1,5 @@
 [%~
-DEFAULT list = rest.networks;
+DEFAULT list = rest;
 USE Dumper;
 ~%]
 [% IF list.size == 0 %]
@@ -8,7 +8,7 @@ USE Dumper;
 [% ELSE %]
 <ul>
 [% FOREACH network IN list %]
-    <li><a href="[% c.uri_for( c.controller('Network').action_for('item'), [ '-', network.token_name ] ) %]">[% network.display_name %]</a></li>
+    <li><a href="[% c.uri_for( c.controller('Network').action_for('item'), [ network.token_name ] ) %]">[% network.display_name %]</a></li>
 [% END %]
 </ul> 
 [% END %]

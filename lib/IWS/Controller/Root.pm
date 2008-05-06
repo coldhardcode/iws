@@ -43,7 +43,7 @@ sub base : Chained('/') PathPart('') CaptureArgs(0) {
     $c->log->debug("TZ: $c->stash->{default_tz}") if $c->debug;
 
     if ( $c->req->method eq 'POST' ) {
-        unless ( $c->req->header('X-Token') eq 'Abracadabra' ) {
+        unless ( $c->req->header('X-Token') eq $c->config->{secret} ) {
             $c->res->status(403);
             $c->res->body('Nein!');
             $c->detach;

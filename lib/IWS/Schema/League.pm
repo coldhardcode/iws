@@ -26,4 +26,8 @@ $CLASS->many_to_many( 'teams', 'team_links', 'team' );
 
 $CLASS->has_many( 'games', 'IWS::Schema::Game', 'league_pk1' );
 
+sub _serialize_rels {
+    return qw/games/;
+}
+
 1;

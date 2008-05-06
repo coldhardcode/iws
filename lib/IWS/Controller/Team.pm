@@ -15,12 +15,12 @@ __PACKAGE__->config(
         'application/x-www-form-urlencoded' => 'JSON',
     },
     'class'    => 'Schema::Team',
-    'item_key' => 'token_name'
+    'item_key' => 'token_name',
+    'serialize_method' => 'serialize',
+    'browser_serialize' => 0
 );
 
 sub rest_base : Chained('.') PathPart('') CaptureArgs(0) { }
-
-sub list_GET  { }
 
 =head2 list_POST
 

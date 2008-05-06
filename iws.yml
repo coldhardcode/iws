@@ -1,5 +1,6 @@
 ---
 name: I Watch Soccer
+secret: SshSecret
 Model::Schema:
     connect_info:
         - "dbi:SQLite:__HOME__/local.db"

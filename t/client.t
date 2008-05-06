@@ -9,23 +9,33 @@ BEGIN { use_ok 'IWS::Client'; }
 my $client = IWS::Client->new('http://127.0.0.1:4000');
 isa_ok($client, 'IWS::Client', 'Created client');
 
-my $team = $client->get_team('la_galaxy');
+my $home_team = $client->get_team('la-galaxy');
 
-if ( $team ) {
-    ok($team, 'got team');
+if ( $home_team ) {
+    ok($home_team, 'got team');
 } else {
-    $team = $client->add_team({ display_name => 'LA Galaxy', token_name => 'la_galaxy' });
-
+    $home_team = $client->add_team({ display_name => 'LA Galaxy', token_name => 'la_galaxy' });
+    is($home_team->{display_name}, 'LA Galaxy', 'Created LA Galaxy Team');
 }
-print dump($team);
+print dump($home_team);
 
-my $copy = { %$team };
+my $away_team = $client->get_team('houston-dynamo');
+
+if ( $away_team ) {
+    ok($away_team, 'got team');
+} else {
+    $away_team = $client->add_team({ display_name => 'Houston Dynamo' });
+    is($away_team->{token_name}, 'houston-dynamo', 'Created Houston (Away) Team');
+}
+print dump($away_team);
+
+my $copy = { %$home_team };
 delete $copy->{pk1};
-is_deeply($copy, { token_name => 'la_galaxy', display_name => 'LA Galaxy' }, 'got LA Galaxy');
+is_deeply($copy, { token_name => 'la-galaxy', display_name => 'LA Galaxy' }, 'got LA Galaxy');
 
 my $new_team = $client->add_team({ display_name => 'Inter Milan' });
 ok($new_team, "Created new team");
-is($new_team->{token_name}, 'inter_milan', "Created new team token");
+is($new_team->{token_name}, 'inter-milan', "Created new team token");
 
 my $network = $client->add_network({
     display_name => 'Fox Soccer Channel',
@@ -38,8 +48,8 @@ my $league = $client->add_league( { display_name => 'English Premier League', to
 ok($league, "Created league");
 
 my $game = $client->add_game({
-    home        => 'la_galaxy',
-    visitor     => 'houston_dynamo',
+    home        => $away_team->{token_name},
+    visitor     => $home_team->{token_name},
     league      => $league->{token_name},
     start_time  => DateTime->now->add( days => 1 )->strftime("%a, %d %b %Y %H:%M:%S %z"),
     end_time    => DateTime->now->add( days => 1, hours => 2)->strftime("%a, %d %b %Y %H:%M:%S %z"),

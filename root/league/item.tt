@@ -1,6 +1,6 @@
 [%
 
-DEFAULT league = rest.league;
+DEFAULT league = rest;
 
 TRY;
     PROCESS "league/static/${league.token_name}.tt";

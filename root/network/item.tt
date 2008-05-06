@@ -2,7 +2,7 @@
 
 USE Dumper;
 
-DEFAULT network = rest.network;
+DEFAULT network = rest;
 
 TRY;
     PROCESS "network/static/${network.token_name}.tt";

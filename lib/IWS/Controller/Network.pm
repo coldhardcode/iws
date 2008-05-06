@@ -2,7 +2,8 @@ package IWS::Controller::Network;
 
 use strict;
 use warnings;
-use base 'Catalyst::Controller::REST';
+
+use base 'Catalyst::Controller::REST::DBIC::Item';
 
 __PACKAGE__->config(
     'default' => 'text/html',
@@ -11,35 +12,26 @@ __PACKAGE__->config(
         'text/xml'  => [ 'View', 'TT' ],
         'application/x-www-form-urlencoded' => 'JSON',
     },
+    'class'    => 'Schema::Network',
+    'item_key' => 'token_name',
+    'serialize_method' => 'serialize',
+    'browser_serialize' => 0
 );
 
 =head1 NAME
 
-IWS::Controller::Network - Catalyst Controller
+IWS::Controller::Network - The Network items
 
 =head1 DESCRIPTION
 
-Catalyst Controller.
+The Networks.  The beloved television networks that broadcast soccer to the
+swarms of rabid fans.
 
 =head1 METHODS
 
 =cut
 
-sub base : Chained('.') PathPart('') CaptureArgs(0) { }
-
-sub list : Chained('base') PathPart('') Args(0) ActionClass('REST') { }
-
-sub list_GET {
-    my ( $self, $c ) = @_;
-
-    my $rs = $c->model('Schema::Network')->search();
-
-    $self->status_ok( $c,
-        entity => {
-            networks => $rs->serialize
-        }
-    );
-}
+sub rest_base : Chained('.') PathPart('') CaptureArgs(0) { }
 
 =head2 list_POST
 
@@ -85,42 +77,9 @@ sub list_POST {
     }
 }
 
-sub item_base : Chained('base') PathPart('') CaptureArgs(2) {
-    my ( $self, $c, $is_id, $ident ) = @_;
-    my $filter = {};
-    if ( $is_id eq '-' ) {
-        $filter->{'me.token_name'} = $ident;
-    } else {
-        $filter->{'me.pk1'} = int($ident);
-    }
-    $c->stash->{rs}->{item} = $c->model("Schema::Network")->search($filter);
-}
-
-sub item : Chained('item_base') PathPart('') Args(0) ActionClass('REST') {
-}
-
-sub item_GET {
-    my ( $self, $c ) = @_;
-    my $row = $c->stash->{rs}->{item}->first;
-
-    if ( $row ) {
-        $c->log->debug("Fetched row: " . $row->pk1);
-        $c->stash->{network} = $row;
-        $self->status_ok( $c,
-            entity => { network => $row }
-        );
-    } else {
-        $self->status_bad_request( $c,
-            message =>
-                $c->localize(qq{Unable to find network, please check input})
-        );
-    }
-}
-
-
 =head1 AUTHOR
 
-J. Shirley,,,
+J. Shirley C< <<jshirley@coldhardcode.com>> >
 
 =head1 LICENSE
 

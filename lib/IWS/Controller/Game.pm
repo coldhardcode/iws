@@ -3,7 +3,7 @@ package IWS::Controller::Game;
 use strict;
 use warnings;
 
-use base 'Catalyst::Controller::REST';
+use base 'Catalyst::Controller::REST::DBIC::Item';
 
 use DateTime;
 use DateTime::Format::RSS;

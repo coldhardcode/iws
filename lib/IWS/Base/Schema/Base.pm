@@ -1,4 +1,4 @@
-package IWS::SchemaBase;
+package IWS::Base::Schema::Base;
 
 use Carp;
 use IWS::ResultSet::Serialize;
@@ -15,7 +15,9 @@ $CLASS->load_components(qw|TimeStamp Core|);
 sub table {
     my $class = shift;
     $class->next::method(@_);
-    $class->resultset_class('IWS::ResultSet::Serialize');
+    # Automatically populate the resultset to include serialization.
+    $class->resultset_class('IWS::ResultSet::Serialize') 
+        if $class->resultset_class eq 'DBIx::Class::ResultSet';
 }
 
 sub serialize {

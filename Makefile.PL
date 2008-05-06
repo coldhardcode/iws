@@ -9,15 +9,19 @@ requires 'Catalyst::Plugin::Static::Simple';
 requires 'Catalyst::Plugin::I18N';
 
 requires 'Catalyst::View::TT';
-requires 'Catalyst::View::Email';
+#requires 'Catalyst::View::Email';
+
 
 requires 'Catalyst::Model::DBIC::Schema';
 
 requires 'Catalyst::Action::REST' => '0.60';
+requires 'Catalyst::Request::REST::ForBrowsers';
+requires 'Catalyst::Controller::REST::DBIC::Item';
 requires 'Catalyst::Action::RenderView';
 
 requires 'Catalyst::Controller::REST::DBIC::Item';
 
+requires 'Data::FormValidator';
 requires 'JSON::DWIW';
 requires 'JSON::Syck';
 requires 'YAML::Syck' => '1.00';

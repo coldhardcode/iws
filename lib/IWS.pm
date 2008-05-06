@@ -9,41 +9,24 @@ use Catalyst::Runtime '5.70';
 use Catalyst::Action::REST::Deserialize::Form;
 use Catalyst::Action::REST::Serialize::Form;
 
-# Set flags and add plugins for the application
-#
-#         -Debug: activates the debug mode for very useful log messages
-#   ConfigLoader: will load the configuration from a YAML file in the
-#                 application's home directory
-# Static::Simple: will serve static files from the application's root 
-#                 directory
-
 use Catalyst qw/
     ConfigLoader Static::Simple
     I18N
 /;
 
-our $VERSION = '0.01002';
-
-# Configure the application. 
-#
-# Note that settings in iws.yml (or other external
-# configuration file that you set up manually) take precedence
-# over this when using ConfigLoader. Thus configuration
-# details given here can function as a default configuration,
-# with a external configuration file acting as an override for
-# local deployment.
+our $VERSION = '0.01003';
 
 __PACKAGE__->config(
     name => 'IWS'
 
 );
 
-# Start the application
 __PACKAGE__->setup;
 
+__PACKAGE__->request_class( 'Catalyst::Request::REST::ForBrowsers' );
 =head1 NAME
 
-IWS - Catalyst based application
+IWS - Catalyst based application for soccer lovers everywhere
 
 =head1 SYNOPSIS
 
@@ -51,7 +34,9 @@ IWS - Catalyst based application
 
 =head1 DESCRIPTION
 
-[enter your description here]
+This powers the iwatchsoccer.com website.
+
+This is a Cold Hard Code production
 
 =head1 SEE ALSO
 
@@ -59,7 +44,7 @@ L<IWS::Controller::Root>, L<Catalyst>
 
 =head1 AUTHOR
 
-J. Shirley,,,
+J. Shirley C< <<jshirley@coldhardcode.com>> >
 
 =head1 LICENSE
 

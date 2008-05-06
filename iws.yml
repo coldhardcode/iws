@@ -2,7 +2,7 @@
 name: I Watch Soccer
 Model::Schema:
     connect_info:
-        - ""
+        - "dbi:SQLite:__HOME__/local.db"
         - ""
         - ""
 defaults:

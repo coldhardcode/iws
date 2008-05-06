@@ -3,7 +3,7 @@ package IWS::Schema::League::Team;
 use strict;
 use warnings;
 
-use base qw/IWS::SchemaBase/;
+use base qw/IWS::Base::Schema::Base/;
 
 my $CLASS = __PACKAGE__;
 

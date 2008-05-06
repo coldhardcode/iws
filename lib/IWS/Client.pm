@@ -31,10 +31,10 @@ sub get_team {
     my ( $self, $team ) = @_;
     my $uri = $self->server->clone;
     if ( ref $team and $team->{token_name} ) {
-        $uri->path("/team/-/$team->{token_name}"); 
+        $uri->path("/team/$team->{token_name}"); 
     }
     elsif ( not ref $team ) {
-        $uri->path("/team/-/$team"); 
+        $uri->path("/team/$team"); 
     } else {
         carp "Unable to get_team without a token name\n";
     }
@@ -46,7 +46,7 @@ sub get_team {
 
     if ( $res->is_success ) {
         my $data = YAML::Syck::Load($res->content);
-        return $data->{team} if $data->{team};
+        return $data if $data->{pk1} and $data->{token_name};
         carp "Unable to fetch team $team: unknown error\n";
         return undef;
     }

@@ -5,6 +5,8 @@ use warnings;
 
 use base qw/IWS::Base::Schema::Base/;
 
+use overload '""' => sub { $_[0]->display_name() }, fallback => 1;
+
 my $CLASS = __PACKAGE__;
 
 $CLASS->table('team');

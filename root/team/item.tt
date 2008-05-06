@@ -1,6 +1,5 @@
 [%
-
-DEFAULT team = rest.team;
+DEFAULT team = rest;
 
 TRY;
     PROCESS "team/static/${team.token_name}.tt";

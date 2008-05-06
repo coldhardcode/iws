@@ -4,6 +4,8 @@ use FindBin;
 use lib qq($FindBin::Bin/../lib);
 
 use IWS;
+
+use Pod::Usage;
 use Getopt::Long;
 
 my ( $help, $deploy, $ddl ) = ( 0, 0, 0 );

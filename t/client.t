@@ -6,13 +6,17 @@ use Test::More tests => 8;
 use Data::Dump qw(dump);
 BEGIN { use_ok 'IWS::Client'; }
 
-my $client = IWS::Client->new('http://127.0.0.1:3000');
+my $client = IWS::Client->new('http://127.0.0.1:4000');
 isa_ok($client, 'IWS::Client', 'Created client');
 
 my $team = $client->get_team('la_galaxy');
 
-ok($team, 'got team');
+if ( $team ) {
+    ok($team, 'got team');
+} else {
+    $team = $client->add_team({ display_name => 'LA Galaxy', token_name => 'la_galaxy' });
 
+}
 print dump($team);
 
 my $copy = { %$team };

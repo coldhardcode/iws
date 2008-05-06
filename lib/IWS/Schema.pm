@@ -17,7 +17,7 @@ IWS::Schema
 
 =head1 AUTHOR
 
-J. Shirley <jshirley@gmail.com>
+J. Shirley <jshirley@coldhardcode.com>
 
 =cut
 

@@ -8,7 +8,7 @@ CATCH;
 END;
 %]<h2>[% loc('Upcoming Games') %]</h2>[%
 PROCESS "game/list.tt",
-     list = team.games( {}, { prefetch => [ 'home', 'visitor', { 'broadcasts' => 'network' } ] } );
+     list = team.games_rs( {}, { prefetch => [ 'home', 'visitor', { 'broadcasts' => 'network' } ] } );
 
 %]
 

@@ -1,14 +1,13 @@
 [%~
 DEFAULT list = rest;
-USE Dumper;
 ~%]
 [% IF list.size == 0 %]
 <h3>[% loc('Sorry') %]</h3>
 [% loc('There are no networks to display, please check back later.') %]
 [% ELSE %]
 <ul>
-[% FOREACH network IN list %]
-    <li><a href="[% c.uri_for( c.controller('Network').action_for('item'), [ network.token_name ] ) %]">[% network.display_name %]</a></li>
+[% WHILE ( network = list.next ) %]
+    <li><a href="[% c.uri_for( c.controller('Network').action_for('rest_item'), [ network.token_name ] ) %]">[% network.display_name %]</a></li>
 [% END %]
 </ul> 
 [% END %]

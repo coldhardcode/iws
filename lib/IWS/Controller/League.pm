@@ -88,7 +88,7 @@ show games that haven't finished
 
 =cut
 
-sub item_base : Chained('rest_base') PathPart('') CaptureArgs(1) {
+sub rest_item_base : Chained('rest_base') PathPart('') CaptureArgs(1) {
     my ( $self, $c, $identifier ) = @_;
 
     $c->stash->{rest}->{item} = $self->get_item($c, $identifier)->search(
@@ -104,7 +104,7 @@ sub item_base : Chained('rest_base') PathPart('') CaptureArgs(1) {
             },
             order_by => [ 'games.start_time ASC' ]
         }
-    )->first;
+    )->single;
 }
 
 =head1 AUTHOR

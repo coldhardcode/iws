@@ -4,10 +4,10 @@ DEFAULT list = rest.games;
 DEFAULT tz   = c.req.params.tz || default_tz;
 USE Dumper; 
 
-SET game_count = list.size;
+SET game_count = list.count;
 
 ~%]
-[% IF game_count == 0 || !list.0 %]
+[% IF game_count == 0 %]
 <h3>[% loc('Sorry') %]</h3>
 [% loc('There are no games to display, please check back later.') %]
 [% ELSE %]
@@ -25,7 +25,7 @@ SET game_count = list.size;
  </form>
 </div>
 <dl class="clear">
-[% FOREACH game IN list;
+[% WHILE ( game = list.next );
     home    = game.home;
     visitor = game.visitor;
     IF game.start_time.time_zone_short_name == "floating";
@@ -54,7 +54,7 @@ SET game_count = list.size;
         [%~ END ~%]
     </dd>
     [%
-        IF ( ( ( loop.index + 1 ) mod ( game_count / 2 ) ) == 0 && game_count > 9 );
+        IF ( loop.index + 1 ) mod 5;
             ads_shown = ads_shown + 1;
     %]
     <dd style="text-align: center;"><script type="text/javascript"><!--

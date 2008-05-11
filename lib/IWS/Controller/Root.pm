@@ -42,10 +42,10 @@ sub base : Chained('/') PathPart('') CaptureArgs(0) {
 
     $c->log->debug("TZ: $c->stash->{default_tz}") if $c->debug;
 
-    if ( $c->req->method eq 'POST' ) {
+    if ( $c->req->method ne 'GET' ) {
         unless ( $c->req->header('X-Token') eq $c->config->{secret} ) {
             $c->res->status(403);
-            $c->res->body('Nein!');
+            $c->res->body('Permission denied');
             $c->detach;
         }
     }

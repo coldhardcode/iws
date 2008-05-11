@@ -48,7 +48,7 @@ Optional fields:
 
 =cut
 
-sub list_POST {
+sub rest_list_POST {
     my ( $self, $c ) = @_;
 
     my $data = $c->req->data;
@@ -58,7 +58,7 @@ sub list_POST {
         $token_name = lc($token_name);
         $token_name =~ s/[^a-z0-9]/-/g;
 
-    my $row = $c->model('Schema::Team')->find_or_create({
+    my $row = $self->get_rs( $c )->find_or_create({
         display_name => $display_name,
         token_name   => $token_name
     });
